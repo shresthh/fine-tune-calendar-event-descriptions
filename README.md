@@ -148,7 +148,7 @@ python src/training/main_training.py \
 
 
 
-#### Option 2: HuggingFace Hub Deployment (Public Access)
+#### HuggingFace Hub Deployment (Public Access)
 ```bash
 # Set your HuggingFace token
 export HF_TOKEN=your_hf_token_here
@@ -166,7 +166,7 @@ tokenizer = AutoTokenizer.from_pretrained("Shresth12345/entity-extraction-smollm
 model = AutoModelForCausalLM.from_pretrained("Shresth12345/entity-extraction-smollm")
 ```
 
-#### Option 3: Evaluation with F1 Metrics
+####  Evaluation with F1 Metrics
 ```bash
 # Comprehensive evaluation with F1 scores
 python src/evaluation/evaluate_finetuned_f1.py
@@ -175,7 +175,7 @@ python src/evaluation/evaluate_finetuned_f1.py
 python src/evaluation/evaluate_existing_model.py
 ```
 
-#### Option 4: Testing
+####  Testing
 ```bash
 # Test F1 metrics implementation
 python src/testing/f1_metrics_example.py
