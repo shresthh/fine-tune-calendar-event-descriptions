@@ -1,0 +1,4704 @@
+{
+  "total_samples": 119,
+  "predictions": [
+    {
+      "input": "Plan a product demo with Olivia, Liam, and Mason on 2nd, November 2026 at 10 AM in the design lab for 1 hour.",
+      "true_output": {
+        "action": "Plan a product demo",
+        "date": "02/11/2026",
+        "time": "10:00 AM",
+        "attendees": [
+          "Olivia",
+          "Liam",
+          "Mason"
+        ],
+        "location": "design lab",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Plan a product demo",
+        "date": "2nd, November 2026",
+        "time": "10:00 AM",
+        "attendees": [
+          "Olivia",
+          "Liam",
+          "Mason"
+        ],
+        "location": "design lab",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Plan a product demo\",\"date\":\"2nd, November 2026\",\"time\":\"10:00 AM\",\"attendees\":[\"Olivia\",\"Liam\",\"Mason\"],\"location\":\"design lab\",\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 191,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Product demo with Emily and Andrew planned for 27 - October - 2023 at 1pm on Zoom, lasting 45 minutes.",
+      "true_output": {
+        "action": "Product demo",
+        "date": "27/10/2023",
+        "time": "1:00 PM",
+        "attendees": [
+          "Emily",
+          "Andrew"
+        ],
+        "location": "Zoom",
+        "duration": "45 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Product demo",
+        "date": "27/10/2023",
+        "time": "1:00 PM",
+        "attendees": [
+          "Emily",
+          "Andrew"
+        ],
+        "location": "Zoom",
+        "duration": "45 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Product demo\",\"date\":\"27/10/2023\",\"time\":\"1:00 PM\",\"attendees\":[\"Emily\",\"Andrew\"],\"location\":\"Zoom\",\"duration\":\"45 minutes\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 166,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Google Meet call to finalize March 6, 2024 at 1:00\u202fpm, 30 mins.",
+      "true_output": {
+        "action": "Google Meet call",
+        "date": "06/03/2024",
+        "time": "1:00 PM",
+        "attendees": null,
+        "location": null,
+        "duration": "30 mins",
+        "recurrence": null,
+        "notes": "to finalize"
+      },
+      "predicted_output": {
+        "action": "Google Meet call",
+        "date": "06/03/2024",
+        "time": "1:00 PM",
+        "attendees": null,
+        "location": "Google Meet",
+        "duration": "30 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Google Meet call\",\"date\":\"06/03/2024\",\"time\":\"1:00 PM\",\"attendees\":null,\"location\":\"Google Meet\",\"duration\":\"30 mins\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 160,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Q&A workshop 18th Aug, 2024 17:00 Zoom",
+      "true_output": {
+        "action": "Q&A workshop",
+        "date": "18/08/2024",
+        "time": "17:00",
+        "attendees": null,
+        "location": "Zoom",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Q&A workshop",
+        "date": "18/08/2024",
+        "time": "17:00",
+        "attendees": null,
+        "location": "Zoom",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Q&A workshop\",\"date\":\"18/08/2024\",\"time\":\"17:00\",\"attendees\":null,\"location\":\"Zoom\",\"duration\":null,\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 142,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Catch-up w/ Eva 9th, Oct 2023 12:45 Park 1.5hrs",
+      "true_output": {
+        "action": "Catch-up",
+        "date": "09/10/2023",
+        "time": "12:45 PM",
+        "attendees": [
+          "Eva"
+        ],
+        "location": "Park",
+        "duration": "1.5hrs",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Catch-up",
+        "date": "09/10/2023",
+        "time": "12:45 PM",
+        "attendees": [
+          "Eva"
+        ],
+        "location": "Park",
+        "duration": "1.5hrs",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Catch-up\",\"date\":\"09/10/2023\",\"time\":\"12:45 PM\",\"attendees\":[\"Eva\"],\"location\":\"Park\",\"duration\":\"1.5hrs\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 148,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "October 12, 2024 6pm discuss roadmap with Mia, Jake, Ruby on Teams",
+      "true_output": {
+        "action": "discuss roadmap",
+        "date": "12/10/2024",
+        "time": "6:00 PM",
+        "attendees": [
+          "Mia",
+          "Jake",
+          "Ruby"
+        ],
+        "location": "Teams",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "discuss roadmap",
+        "date": "12/10/2024",
+        "time": "6:00 PM",
+        "attendees": [
+          "Mia",
+          "Jake",
+          "Ruby"
+        ],
+        "location": "Teams",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"discuss roadmap\",\"date\":\"12/10/2024\",\"time\":\"6:00 PM\",\"attendees\":[\"Mia\",\"Jake\",\"Ruby\"],\"location\":\"Teams\",\"duration\":null,\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 165,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Arrange a training session with Lily, Henry, and Ava on 8th, July 2026 at 10 AM in the training room for 2 hours.",
+      "true_output": {
+        "action": "Arrange a training session",
+        "date": "08/07/2026",
+        "time": "10:00 AM",
+        "attendees": [
+          "Lily",
+          "Henry",
+          "Ava"
+        ],
+        "location": "training room",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Arrange a training session",
+        "date": "08/07/2026",
+        "time": "10:00 AM",
+        "attendees": [
+          "Lily",
+          "Henry",
+          "Ava"
+        ],
+        "location": "training room",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Arrange a training session\",\"date\":\"08/07/2026\",\"time\":\"10:00 AM\",\"attendees\":[\"Lily\",\"Henry\",\"Ava\"],\"location\":\"training room\",\"duration\":\"2 hours\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 191,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "2023-11-24 6 PM Dinner with Jason at Bella\u2019s Bistro for 2 hours.",
+      "true_output": {
+        "action": "Dinner",
+        "date": "24/11/2023",
+        "time": "6:00 PM",
+        "attendees": [
+          "Jason"
+        ],
+        "location": "Bella\u2019s Bistro",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Dinner",
+        "date": "24/11/2023",
+        "time": "6:00 PM",
+        "attendees": [
+          "Jason"
+        ],
+        "location": "Bella\u2019s Bistro",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Dinner\",\"date\":\"24/11/2023\",\"time\":\"6:00 PM\",\"attendees\":[\"Jason\"],\"location\":\"Bella\u2019s Bistro\",\"duration\":\"2 hours\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 158,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Product review 17 - Oct - 2023 5:00\u202fpm online call",
+      "true_output": {
+        "action": "Product review",
+        "date": "17/10/2023",
+        "time": "5:00 PM",
+        "attendees": null,
+        "location": "online",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "product review",
+        "date": "17/10/2023",
+        "time": "5:00 PM",
+        "attendees": [
+          "Alex",
+          "Jamie",
+          "Taylor"
+        ],
+        "location": "online call",
+        "duration": "1hr",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"product review\",\"date\":\"17/10/2023\",\"time\":\"5:00 PM\",\"attendees\":[\"Alex\",\"Jamie\",\"Taylor\"],\"location\":\"online call\",\"duration\":\"1hr\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 175,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Budget mtg w/ Kim 10th, Jun 2024 1:00 pm Zoom 45 mins",
+      "true_output": {
+        "action": "Budget mtg",
+        "date": "10/06/2024",
+        "time": "1:00 PM",
+        "attendees": [
+          "Kim"
+        ],
+        "location": "Zoom",
+        "duration": "45 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Budget mtg",
+        "date": "10/06/2024",
+        "time": "10:00 AM",
+        "attendees": [
+          "Kim"
+        ],
+        "location": "Zoom",
+        "duration": "45 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Budget mtg\",\"date\":\"10/06/2024\",\"time\":\"10:00 AM\",\"attendees\":[\"Kim\"],\"location\":\"Zoom\",\"duration\":\"45 mins\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 151,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Schedule a financial planning session on May 30, 2024 at 11:30 am for 2 hours with Ashley and Paul at the Finance Wing.",
+      "true_output": {
+        "action": "financial planning session",
+        "date": "30/05/2024",
+        "time": "11:30 AM",
+        "attendees": [
+          "Ashley",
+          "Paul"
+        ],
+        "location": "Finance Wing",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Schedule a financial planning session",
+        "date": "30/05/2024",
+        "time": "11:30 AM",
+        "attendees": [
+          "Ashley",
+          "Paul"
+        ],
+        "location": "Finance Wing",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Schedule a financial planning session\",\"date\":\"30/05/2024\",\"time\":\"11:30 AM\",\"attendees\":[\"Ashley\",\"Paul\"],\"location\":\"Finance Wing\",\"duration\":\"2 hours\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 196,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Dinner at the steakhouse on 31st, Mar 2025, 8:00 pm, should be 2 hours long.",
+      "true_output": {
+        "action": "Dinner",
+        "date": "31/03/2025",
+        "time": "8:00 PM",
+        "attendees": null,
+        "location": "steakhouse",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Dinner",
+        "date": "03/04/2025",
+        "time": "8:00 PM",
+        "attendees": null,
+        "location": "steakhouse",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Dinner\",\"date\":\"03/04/2025\",\"time\":\"8:00 PM\",\"attendees\":null,\"location\":\"steakhouse\",\"duration\":\"2 hours\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 149,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Book me in for a team sync on May 20, 2024 at 09:00, and block an hour for it.",
+      "true_output": {
+        "action": "team sync",
+        "date": "20/05/2024",
+        "time": "09:00 AM",
+        "attendees": null,
+        "location": null,
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Book me in for a team sync",
+        "date": "20/05/2024",
+        "time": "09:00 AM",
+        "attendees": null,
+        "location": null,
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Book me in for a team sync\",\"date\":\"20/05/2024\",\"time\":\"09:00 AM\",\"attendees\":null,\"location\":null,\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 161,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Arrange a guest lecture on 13th, March 2028 at 11 AM with Mia, James, and Sarah in the main lecture hall for 90 minutes.",
+      "true_output": {
+        "action": "Arrange a guest lecture",
+        "date": "13/03/2028",
+        "time": "11:00 AM",
+        "attendees": [
+          "Mia",
+          "James",
+          "Sarah"
+        ],
+        "location": "main lecture hall",
+        "duration": "90 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Arrange a guest lecture",
+        "date": "13/03/2028",
+        "time": "11:00 AM",
+        "attendees": [
+          "Mia",
+          "James",
+          "Sarah"
+        ],
+        "location": "main lecture hall",
+        "duration": "90 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Arrange a guest lecture\",\"date\":\"13/03/2028\",\"time\":\"11:00 AM\",\"attendees\":[\"Mia\",\"James\",\"Sarah\"],\"location\":\"main lecture hall\",\"duration\":\"90 minutes\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 196,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Set up a stakeholder consultation on 27th, June 2027 at 11 AM with Isabella, Mason, and Sarah in the executive suite for 2 hours.",
+      "true_output": {
+        "action": "Set up a stakeholder consultation",
+        "date": "27/06/2027",
+        "time": "11:00 AM",
+        "attendees": [
+          "Isabella",
+          "Mason",
+          "Sarah"
+        ],
+        "location": "executive suite",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Set up a stakeholder consultation",
+        "date": "27/06/2027",
+        "time": "11:00 AM",
+        "attendees": [
+          "Isabella",
+          "Mason",
+          "Sarah"
+        ],
+        "location": "executive suite",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Set up a stakeholder consultation\",\"date\":\"27/06/2027\",\"time\":\"11:00 AM\",\"attendees\":[\"Isabella\",\"Mason\",\"Sarah\"],\"location\":\"executive suite\",\"duration\":\"2 hours\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 206,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Book a creative review on January 11, 2024 at 12:45 pm for 2 hours with Olivia and Ben at the Marketing Office.",
+      "true_output": {
+        "action": "Book a creative review",
+        "date": "11/01/2024",
+        "time": "12:45 PM",
+        "attendees": [
+          "Olivia",
+          "Ben"
+        ],
+        "location": "Marketing Office",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Book a creative review",
+        "date": "11/01/2024",
+        "time": "12:45 PM",
+        "attendees": [
+          "Olivia",
+          "Ben"
+        ],
+        "location": "Marketing Office",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Book a creative review\",\"date\":\"11/01/2024\",\"time\":\"12:45 PM\",\"attendees\":[\"Olivia\",\"Ben\"],\"location\":\"Marketing Office\",\"duration\":\"2 hours\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 184,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Onboarding 2023-12-14 8:45\u202fam w/ Ava & Ethan BlueJeans 30m",
+      "true_output": {
+        "action": "Onboarding",
+        "date": "2023-12-14",
+        "time": "8:45 AM",
+        "attendees": [
+          "Ava",
+          "Ethan"
+        ],
+        "location": "BlueJeans",
+        "duration": "30m",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Onboarding",
+        "date": "14/12/2023",
+        "time": "8:45 AM",
+        "attendees": [
+          "Ava",
+          "Ethan"
+        ],
+        "location": "BlueJeans",
+        "duration": "30m",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Onboarding\",\"date\":\"2023-12-14\",\"time\":\"8:45 AM\",\"attendees\":[\"Ava\",\"Ethan\"],\"location\":\"BlueJeans\",\"duration\":\"30m\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 159,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Training workshop on 07 - November - 2023, 9am, with Aria and Adrian, 2 hours long, hosted on Microsoft Teams.",
+      "true_output": {
+        "action": "Training workshop",
+        "date": "07/11/2023",
+        "time": "9:00 AM",
+        "attendees": [
+          "Aria",
+          "Adrian"
+        ],
+        "location": "Microsoft Teams",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Training workshop",
+        "date": "07/11/2023",
+        "time": "9:00 AM",
+        "attendees": [
+          "Aria",
+          "Adrian"
+        ],
+        "location": "Microsoft Teams",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Training workshop\",\"date\":\"07/11/2023\",\"time\":\"9:00 AM\",\"attendees\":[\"Aria\",\"Adrian\"],\"location\":\"Microsoft Teams\",\"duration\":\"2 hours\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 178,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Research review 16/11/2023 at 4pm with Daniel and Emma, 60 minutes.",
+      "true_output": {
+        "action": "Research review",
+        "date": "16/11/2023",
+        "time": "4:00 PM",
+        "attendees": [
+          "Daniel",
+          "Emma"
+        ],
+        "location": null,
+        "duration": "60 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Research review",
+        "date": "16/11/2023",
+        "time": "4:00 PM",
+        "attendees": [
+          "Daniel",
+          "Emma"
+        ],
+        "location": null,
+        "duration": "60 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Research review\",\"date\":\"16/11/2023\",\"time\":\"4:00 PM\",\"attendees\":[\"Daniel\",\"Emma\"],\"location\":null,\"duration\":\"60 minutes\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 166,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Plan a design critique session on 29th, October 2027 at 3 PM with Sophia, Ben, and Harper in the design lab for 90 minutes.",
+      "true_output": {
+        "action": "Plan a design critique session",
+        "date": "29/10/2027",
+        "time": "3:00 PM",
+        "attendees": [
+          "Sophia",
+          "Ben",
+          "Harper"
+        ],
+        "location": "design lab",
+        "duration": "90 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Plan a design critique session",
+        "date": "29/10/2027",
+        "time": "3:00 PM",
+        "attendees": [
+          "Sophia",
+          "Ben",
+          "Harper"
+        ],
+        "location": "design lab",
+        "duration": "90 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Plan a design critique session\",\"date\":\"29/10/2027\",\"time\":\"3:00 PM\",\"attendees\":[\"Sophia\",\"Ben\",\"Harper\"],\"location\":\"design lab\",\"duration\":\"90 minutes\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 197,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Team sync planned 05/12/2023 at 2pm with Anna and Tom, 45 minutes.",
+      "true_output": {
+        "action": "Team sync",
+        "date": "05/12/2023",
+        "time": "2:00 PM",
+        "attendees": [
+          "Anna",
+          "Tom"
+        ],
+        "location": null,
+        "duration": "45 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Team sync",
+        "date": "05/12/2023",
+        "time": "2:00 PM",
+        "attendees": [
+          "Anna",
+          "Tom"
+        ],
+        "location": null,
+        "duration": "45 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Team sync\",\"date\":\"05/12/2023\",\"time\":\"2:00 PM\",\"attendees\":[\"Anna\",\"Tom\"],\"location\":null,\"duration\":\"45 minutes\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 157,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Presentation Sarah 2nd, Nov 2023 11:00 Auditorium 2hrs",
+      "true_output": {
+        "action": "Presentation",
+        "date": "02/11/2023",
+        "time": "11:00 AM",
+        "attendees": [
+          "Sarah"
+        ],
+        "location": "Auditorium",
+        "duration": "2hrs",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Presentation",
+        "date": "2nd",
+        "time": "11:00 AM",
+        "attendees": [
+          "Sarah"
+        ],
+        "location": "Auditorium",
+        "duration": "2hrs",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Presentation\",\"date\":\"2nd\",\"time\":\"11:00 AM\",\"attendees\":[\"Sarah\"],\"location\":\"Auditorium\",\"duration\":\"2hrs\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 151,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Quarterly check-in 07/12/2023 at 12pm with Anna and Paul, 1 hour.",
+      "true_output": {
+        "action": "Quarterly check-in",
+        "date": "07/12/2023",
+        "time": "12:00 PM",
+        "attendees": [
+          "Anna",
+          "Paul"
+        ],
+        "location": null,
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Quarterly check-in",
+        "date": "07/12/2023",
+        "time": "12:00 PM",
+        "attendees": [
+          "Anna",
+          "Paul"
+        ],
+        "location": null,
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Quarterly check-in\",\"date\":\"07/12/2023\",\"time\":\"12:00 PM\",\"attendees\":[\"Anna\",\"Paul\"],\"location\":null,\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 164,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Incident review 2023-11-17 02:00\u202fpm Raj, Luke, Emma 1hr",
+      "true_output": {
+        "action": "Incident review",
+        "date": "17/11/2023",
+        "time": "02:00 PM",
+        "attendees": [
+          "Raj",
+          "Luke",
+          "Emma"
+        ],
+        "location": null,
+        "duration": "1hr",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Incident review",
+        "date": "17/11/2023",
+        "time": "02:00 PM",
+        "attendees": [
+          "Raj",
+          "Luke",
+          "Emma"
+        ],
+        "location": null,
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Incident review\",\"date\":\"2023-11-17\",\"time\":\"02:00 PM\",\"attendees\":[\"Raj\",\"Luke\",\"Emma\"],\"location\":null,\"duration\":null,\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 163,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Feedback session with Tyler and Bella scheduled for 06 - April - 2024, 9am lasting 90 minutes on Zoom.",
+      "true_output": {
+        "action": "Feedback session",
+        "date": "06/04/2024",
+        "time": "9:00 AM",
+        "attendees": [
+          "Tyler",
+          "Bella"
+        ],
+        "location": "Zoom",
+        "duration": "90 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Feedback session",
+        "date": "06/04/2024",
+        "time": "9:00 AM",
+        "attendees": [
+          "Tyler",
+          "Bella"
+        ],
+        "location": "Zoom",
+        "duration": "90 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Feedback session\",\"date\":\"06/04/2024\",\"time\":\"9:00 AM\",\"attendees\":[\"Tyler\",\"Bella\"],\"location\":\"Zoom\",\"duration\":\"90 minutes\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 169,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "March 14, 2024 8am sync meeting Alex, Emma, Noah on Zoom",
+      "true_output": {
+        "action": "sync meeting",
+        "date": "14/03/2024",
+        "time": "8:00 AM",
+        "attendees": [
+          "Alex",
+          "Emma",
+          "Noah"
+        ],
+        "location": "Zoom",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "sync meeting",
+        "date": "14/03/2024",
+        "time": "8:00 AM",
+        "attendees": [
+          "Alex",
+          "Emma",
+          "Noah"
+        ],
+        "location": "Zoom",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"sync meeting\",\"date\":\"14/03/2024\",\"time\":\"8:00 AM\",\"attendees\":[\"Alex\",\"Emma\",\"Noah\"],\"location\":\"Zoom\",\"duration\":null,\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 162,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Catch up with team 09 - Dec - 2023 8:30\u202fam Teams",
+      "true_output": {
+        "action": "Catch up",
+        "date": "09/12/2023",
+        "time": "8:30 AM",
+        "attendees": [
+          "team"
+        ],
+        "location": "Teams",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Catch up",
+        "date": "09/12/2023",
+        "time": "8:30 AM",
+        "attendees": null,
+        "location": "Teams",
+        "duration": "1hr",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Catch up\",\"date\":\"09/12/2023\",\"time\":\"8:30 AM\",\"attendees\":null,\"location\":\"Teams\",\"duration\":\"1hr\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 142,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Plan tasks w/ Ruth 13th, Nov 2023 11:30 HQ 1hr",
+      "true_output": {
+        "action": "Plan tasks",
+        "date": "13/11/2023",
+        "time": "11:30 AM",
+        "attendees": [
+          "Ruth"
+        ],
+        "location": "HQ",
+        "duration": "1hr",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Plan tasks",
+        "date": "13/11/2023",
+        "time": "11:30 AM",
+        "attendees": [
+          "Ruth"
+        ],
+        "location": "HQ",
+        "duration": "1hr",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Plan tasks\",\"date\":\"13/11/2023\",\"time\":\"11:30 AM\",\"attendees\":[\"Ruth\"],\"location\":\"HQ\",\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 149,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Book feedback session 2024-01-18 4pm with Maria for 60 minutes.",
+      "true_output": {
+        "action": "Book feedback session",
+        "date": "2024-01-18",
+        "time": "4:00 PM",
+        "attendees": [
+          "Maria"
+        ],
+        "location": null,
+        "duration": "60 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Book feedback session",
+        "date": "2024-01-18",
+        "time": "4:00 PM",
+        "attendees": [
+          "Maria"
+        ],
+        "location": null,
+        "duration": "60 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Book feedback session\",\"date\":\"2024-01-18\",\"time\":\"4:00 PM\",\"attendees\":[\"Maria\"],\"location\":null,\"duration\":\"60 minutes\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 164,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Lunch on 18/10/2023 at 12pm with Maria and James, 90 minutes.",
+      "true_output": {
+        "action": "Lunch",
+        "date": "18/10/2023",
+        "time": "12:00 PM",
+        "attendees": [
+          "Maria",
+          "James"
+        ],
+        "location": null,
+        "duration": "90 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Lunch",
+        "date": "18/10/2023",
+        "time": "12:00 PM",
+        "attendees": [
+          "Maria",
+          "James"
+        ],
+        "location": null,
+        "duration": "90 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Lunch\",\"date\":\"18/10/2023\",\"time\":\"12:00 PM\",\"attendees\":[\"Maria\",\"James\"],\"location\":null,\"duration\":\"90 minutes\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 157,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Send invites Feb 18, 2024 2pm 15min w/ HR",
+      "true_output": {
+        "action": "Send invites",
+        "date": "18/02/2024",
+        "time": "2:00 PM",
+        "attendees": [
+          "HR"
+        ],
+        "location": null,
+        "duration": "15 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Send invites",
+        "date": "18/02/2024",
+        "time": "2:00 PM",
+        "attendees": [
+          "HR"
+        ],
+        "location": "15 minutes",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Send invites\",\"date\":\"18/02/2024\",\"time\":\"2:00 PM\",\"attendees\":[\"HR\"],\"location\":\"15 minutes\",\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 156,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Call w/ Alex & Sara 2023-11-15 3:00\u202fpm Zoom 30m",
+      "true_output": {
+        "action": "Call",
+        "date": "2023-11-15",
+        "time": "3:00 PM",
+        "attendees": [
+          "Alex",
+          "Sara"
+        ],
+        "location": "Zoom",
+        "duration": "30m",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Call",
+        "date": "15/11/2023",
+        "time": "3:00 PM",
+        "attendees": [
+          "Alex",
+          "Sara"
+        ],
+        "location": "Zoom",
+        "duration": "30m",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Call\",\"date\":\"15/11/2023\",\"time\":\"3:00 PM\",\"attendees\":[\"Alex\",\"Sara\"],\"location\":\"Zoom\",\"duration\":\"30m\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 148,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Organize a team dinner with Chloe, Emily, and James on 20th, October 2026 at 7 PM at The Grand Grillhouse for 2 hours.",
+      "true_output": {
+        "action": "Organize a team dinner",
+        "date": "20/10/2026",
+        "time": "7:00 PM",
+        "attendees": [
+          "Chloe",
+          "Emily",
+          "James"
+        ],
+        "location": "The Grand Grillhouse",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Organize a team dinner",
+        "date": "20/10/2026",
+        "time": "7:00 PM",
+        "attendees": [
+          "Chloe",
+          "Emily",
+          "James"
+        ],
+        "location": "The Grand Grillhouse",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Organize a team dinner\",\"date\":\"20/10/2026\",\"time\":\"7:00 PM\",\"attendees\":[\"Chloe\",\"Emily\",\"James\"],\"location\":\"The Grand Grillhouse\",\"duration\":\"2 hours\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 196,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Schedule a product launch run-through on October 28, 2024 at 1:00 pm for 2 hours with Henry and Monica at the Event Hall.",
+      "true_output": {
+        "action": "Schedule a product launch run-through",
+        "date": "28/10/2024",
+        "time": "1:00 PM",
+        "attendees": [
+          "Henry",
+          "Monica"
+        ],
+        "location": "Event Hall",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Schedule a product launch run-through",
+        "date": "28/10/2024",
+        "time": "1:00 PM",
+        "attendees": [
+          "Henry",
+          "Monica"
+        ],
+        "location": "Event Hall",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Schedule a product launch run-through\",\"date\":\"28/10/2024\",\"time\":\"1:00 PM\",\"attendees\":[\"Henry\",\"Monica\"],\"location\":\"Event Hall\",\"duration\":\"2 hours\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 194,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Photography walk with Mia at City Plaza on May 20, 2024, 3:00 pm for 1 hour.",
+      "true_output": {
+        "action": "Photography walk",
+        "date": "20/05/2024",
+        "time": "3:00 PM",
+        "attendees": [
+          "Mia"
+        ],
+        "location": "City Plaza",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Photography walk",
+        "date": "20/05/2024",
+        "time": "3:00 PM",
+        "attendees": [
+          "Mia"
+        ],
+        "location": "City Plaza",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Photography walk\",\"date\":\"20/05/2024\",\"time\":\"3:00 PM\",\"attendees\":[\"Mia\"],\"location\":\"City Plaza\",\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 161,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Zoom mtg for project updates on March 14, 2024 at 3:00\u202fpm, 30 mins.",
+      "true_output": {
+        "action": "Zoom meeting",
+        "date": "14/03/2024",
+        "time": "3:00 PM",
+        "attendees": null,
+        "location": null,
+        "duration": "30 mins",
+        "recurrence": null,
+        "notes": "Project updates"
+      },
+      "predicted_output": {
+        "action": "Zoom mtg",
+        "date": "14/03/2024",
+        "time": "3:00 PM",
+        "attendees": null,
+        "location": "Zoom",
+        "duration": "30 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Zoom mtg\",\"date\":\"14/03/2024\",\"time\":\"3:00 PM\",\"attendees\":null,\"location\":\"Zoom\",\"duration\":\"30 mins\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 145,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Weekly review 14/11/2023 at 9am with Theo and Rose, 1 hour.",
+      "true_output": {
+        "action": "Weekly review",
+        "date": "14/11/2023",
+        "time": "9:00 AM",
+        "attendees": [
+          "Theo",
+          "Rose"
+        ],
+        "location": null,
+        "duration": "1 hour",
+        "recurrence": "weekly",
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Weekly review",
+        "date": "14/11/2023",
+        "time": "9:00 AM",
+        "attendees": [
+          "Theo",
+          "Rose"
+        ],
+        "location": null,
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Weekly review\",\"date\":\"14/11/2023\",\"time\":\"9:00 AM\",\"attendees\":[\"Theo\",\"Rose\"],\"location\":null,\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 158,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Legal review 2023-12-18 1:00\u202fpm w/ Henry & Liz Teams 1h",
+      "true_output": {
+        "action": "Legal review",
+        "date": "2023-12-18",
+        "time": "1:00 PM",
+        "attendees": [
+          "Henry",
+          "Liz"
+        ],
+        "location": "Teams",
+        "duration": "1h",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Legal review",
+        "date": "18/12/2023",
+        "time": "1:00 PM",
+        "attendees": [
+          "Henry",
+          "Liz"
+        ],
+        "location": "Teams",
+        "duration": "1h",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Legal review\",\"date\":\"18/12/2023\",\"time\":\"1:00 PM\",\"attendees\":[\"Henry\",\"Liz\"],\"location\":\"Teams\",\"duration\":\"1h\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 156,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Work update with Jacob and Lily on 30 - January - 2024, 11:30am, planned for an hour via Zoom.",
+      "true_output": {
+        "action": "Work update",
+        "date": "30/01/2024",
+        "time": "11:30 AM",
+        "attendees": [
+          "Jacob",
+          "Lily"
+        ],
+        "location": "Zoom",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Work update",
+        "date": "03/12/2024",
+        "time": "11:30 AM",
+        "attendees": [
+          "Jacob",
+          "Lily"
+        ],
+        "location": "Zoom",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Work update\",\"date\":\"03/12/2024\",\"time\":\"11:30 AM\",\"attendees\":[\"Jacob\",\"Lily\"],\"location\":\"Zoom\",\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 160,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "2023-11-27 9 AM Morning briefing with Ethan at City Hall, 30 minutes.",
+      "true_output": {
+        "action": "Morning briefing",
+        "date": "27/11/2023",
+        "time": "9:00 AM",
+        "attendees": [
+          "Ethan"
+        ],
+        "location": "City Hall",
+        "duration": "30 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Morning briefing",
+        "date": "27/11/2023",
+        "time": "9:00 AM",
+        "attendees": [
+          "Ethan"
+        ],
+        "location": "City Hall",
+        "duration": "30 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Morning briefing\",\"date\":\"27/11/2023\",\"time\":\"9:00 AM\",\"attendees\":[\"Ethan\"],\"location\":\"City Hall\",\"duration\":\"30 minutes\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 166,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Engg sprint 2023-12-12 11:15\u202fam Maya, Luke, Jen 45mins",
+      "true_output": {
+        "action": "Engg sprint",
+        "date": "2023-12-12",
+        "time": "11:15 AM",
+        "attendees": [
+          "Maya",
+          "Luke",
+          "Jen"
+        ],
+        "location": null,
+        "duration": "45 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Engg sprint",
+        "date": "12/12/2023",
+        "time": "11:15 AM",
+        "attendees": [
+          "Maya",
+          "Luke",
+          "Jen"
+        ],
+        "location": "45mins",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Engg sprint\",\"date\":\"12/12/2023\",\"time\":\"11:15 AM\",\"attendees\":[\"Maya\",\"Luke\",\"Jen\"],\"location\":\"45 mins\",\"duration\":null,\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 164,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Organize a final project review on 9th, September 2027 at 11 AM with Chloe, Emily, and Alex in the project room for 1 hour.",
+      "true_output": {
+        "action": "Organize a final project review",
+        "date": "09/09/2027",
+        "time": "11:00 AM",
+        "attendees": [
+          "Chloe",
+          "Emily",
+          "Alex"
+        ],
+        "location": "project room",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Organize a final project review",
+        "date": "09/09/2027",
+        "time": "11:00 AM",
+        "attendees": [
+          "Chloe",
+          "Emily",
+          "Alex"
+        ],
+        "location": "project room",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Organize a final project review\",\"date\":\"09/09/2027\",\"time\":\"11:00 AM\",\"attendees\":[\"Chloe\",\"Emily\",\"Alex\"],\"location\":\"project room\",\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 196,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Run at the nearby track on 6th, Mar 2025, time 6:30 am, for about 45 minutes.",
+      "true_output": {
+        "action": "Run",
+        "date": "06/03/2025",
+        "time": "6:30 AM",
+        "attendees": null,
+        "location": "nearby track",
+        "duration": "45 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Run",
+        "date": "06/03/2025",
+        "time": "6:30 AM",
+        "attendees": null,
+        "location": "nearby track",
+        "duration": "45 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Run\",\"date\":\"06/03/2025\",\"time\":\"6:30 AM\",\"attendees\":null,\"location\":\"nearby track\",\"duration\":\"45 minutes\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 151,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Sync Feb 16, 2024 3pm w/ Mike + Sue 30min",
+      "true_output": {
+        "action": "Sync",
+        "date": "16/02/2024",
+        "time": "3:00 PM",
+        "attendees": [
+          "Mike",
+          "Sue"
+        ],
+        "location": null,
+        "duration": "30 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Sync",
+        "date": "16/02/2024",
+        "time": "3:00 PM",
+        "attendees": [
+          "Mike",
+          "Sue"
+        ],
+        "location": null,
+        "duration": "30 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Sync\",\"date\":\"16/02/2024\",\"time\":\"3:00 PM\",\"attendees\":[\"Mike\",\"Sue\"],\"location\":null,\"duration\":\"30 minutes\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 152,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "End-of-year briefing 15/12/2023 at 2:15pm with Sarah and Nick, 2 hours.",
+      "true_output": {
+        "action": "End-of-year briefing",
+        "date": "15/12/2023",
+        "time": "2:15 PM",
+        "attendees": [
+          "Sarah",
+          "Nick"
+        ],
+        "location": null,
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "End-of-year briefing",
+        "date": "15/12/2023",
+        "time": "2:15 PM",
+        "attendees": [
+          "Sarah",
+          "Nick"
+        ],
+        "location": null,
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"End-of-year briefing\",\"date\":\"15/12/2023\",\"time\":\"2:15 PM\",\"attendees\":[\"Sarah\",\"Nick\"],\"location\":\"2 hours\",\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 171,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Plan holiday party 18/12/2023 6pm Rooftop with Grace, Michael, and Sophia 4hrs.",
+      "true_output": {
+        "action": "Plan holiday party",
+        "date": "18/12/2023",
+        "time": "6:00 PM",
+        "attendees": [
+          "Grace",
+          "Michael",
+          "Sophia"
+        ],
+        "location": "Rooftop",
+        "duration": "4hrs",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Plan holiday party",
+        "date": "18/12/2023",
+        "time": "6:00 PM",
+        "attendees": [
+          "Grace",
+          "Michael",
+          "Sophia"
+        ],
+        "location": "Rooftop",
+        "duration": "4hrs",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Plan holiday party\",\"date\":\"18/12/2023\",\"time\":\"6:00 PM\",\"attendees\":[\"Grace\",\"Michael\",\"Sophia\"],\"location\":\"Rooftop\",\"duration\":\"4hrs\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 179,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Sales check-in 2023-10-30 11:00\u202fam w/ Kate & Luke Zoom 45m",
+      "true_output": {
+        "action": "Sales check-in",
+        "date": "2023-10-30",
+        "time": "11:00 AM",
+        "attendees": [
+          "Kate",
+          "Luke"
+        ],
+        "location": "Zoom",
+        "duration": "45m",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Sales check-in",
+        "date": "2023-10-30",
+        "time": "11:00 AM",
+        "attendees": [
+          "Kate",
+          "Luke"
+        ],
+        "location": "Zoom",
+        "duration": "45m",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Sales check-in\",\"date\":\"2023-10-30\",\"time\":\"11:00 AM\",\"attendees\":[\"Kate\",\"Luke\"],\"location\":\"Zoom\",\"duration\":\"45m\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 159,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Plan a lunch-and-learn on July 25, 2026 at 12:00, reserve about an hour.",
+      "true_output": {
+        "action": "Plan a lunch-and-learn",
+        "date": "25/07/2026",
+        "time": "12:00 PM",
+        "attendees": null,
+        "location": null,
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Plan a lunch-and-learn",
+        "date": "25/07/2026",
+        "time": "12:00 PM",
+        "attendees": null,
+        "location": null,
+        "duration": "about an hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Plan a lunch-and-learn\",\"date\":\"25/07/2026\",\"time\":\"12:00 PM\",\"attendees\":null,\"location\":null,\"duration\":\"about an hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 164,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Set up a legal consultation on April 19, 2024 at 9:15 am for 1 hour with Kelly and Mike at West Office, Room 7.",
+      "true_output": {
+        "action": "Set up a legal consultation",
+        "date": "19/04/2024",
+        "time": "9:15 AM",
+        "attendees": [
+          "Kelly",
+          "Mike"
+        ],
+        "location": "West Office, Room 7",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Set up a legal consultation",
+        "date": "19/04/2024",
+        "time": "9:15 AM",
+        "attendees": [
+          "Kelly",
+          "Mike"
+        ],
+        "location": "West Office, Room 7",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Set up a legal consultation\",\"date\":\"19/04/2024\",\"time\":\"9:15 AM\",\"attendees\":[\"Kelly\",\"Mike\"],\"location\":\"West Office, Room 7\",\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 190,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Follow-up discussion: May 16, 2024, 10:30am (30 mins) with team",
+      "true_output": {
+        "action": "Follow-up discussion",
+        "date": "16/05/2024",
+        "time": "10:30 AM",
+        "attendees": [
+          "team"
+        ],
+        "location": null,
+        "duration": "30 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Follow-up discussion",
+        "date": "16/05/2024",
+        "time": "10:30 AM",
+        "attendees": null,
+        "location": "30 mins",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Follow-up discussion\",\"date\":\"16/05/2024\",\"time\":\"10:30 AM\",\"attendees\":null,\"location\":null,\"duration\":\"30 mins\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 156,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Discuss roadmap Max 26th, Jan 2024 09:30 HQ 1.5hrs",
+      "true_output": {
+        "action": "Discuss roadmap",
+        "date": "26/01/2024",
+        "time": "09:30 AM",
+        "attendees": [
+          "Max"
+        ],
+        "location": "HQ",
+        "duration": "1.5hrs",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Discuss roadmap",
+        "date": "26/01/2024",
+        "time": "09:30 AM",
+        "attendees": [
+          "Alex",
+          "Jamie",
+          "Taylor"
+        ],
+        "location": "HQ",
+        "duration": "1.5hrs",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Discuss roadmap\",\"date\":\"26/01/2024\",\"time\":\"09:30 AM\",\"attendees\":[\"Alex\",\"Jamie\",\"Taylor\"],\"location\":\"HQ\",\"duration\":\"1.5hrs\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 171,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Onboarding Feb 26, 2024 10am w/ HR 30min",
+      "true_output": {
+        "action": "Onboarding",
+        "date": "26/02/2024",
+        "time": "10:00 AM",
+        "attendees": [
+          "HR"
+        ],
+        "location": null,
+        "duration": "30 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Onboarding",
+        "date": "26/02/2024",
+        "time": "10:00 AM",
+        "attendees": [
+          "HR"
+        ],
+        "location": null,
+        "duration": "30 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Onboarding\",\"date\":\"26/02/2024\",\"time\":\"10:00 AM\",\"attendees\":[\"HR\"],\"location\":null,\"duration\":\"30 minutes\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 151,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Team sync 2023-11-10 10:15\u202fam w/ Max & Kim Skype 30m",
+      "true_output": {
+        "action": "Team sync",
+        "date": "10/11/2023",
+        "time": "10:15 AM",
+        "attendees": [
+          "Max",
+          "Kim"
+        ],
+        "location": "Skype",
+        "duration": "30m",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Team sync",
+        "date": "10/11/2023",
+        "time": "10:15 AM",
+        "attendees": [
+          "Max",
+          "Kim"
+        ],
+        "location": "Skype",
+        "duration": "30m",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Team sync\",\"date\":\"10/11/2023\",\"time\":\"10:15 AM\",\"attendees\":[\"Max\",\"Kim\"],\"location\":\"Skype\",\"duration\":\"30m\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 153,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Sprint planning 25 - Nov - 2023 9:15\u202fam Google Meet",
+      "true_output": {
+        "action": "Sprint planning",
+        "date": "25/11/2023",
+        "time": "9:15 AM",
+        "attendees": null,
+        "location": "Google Meet",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Sprint planning",
+        "date": "25/11/2023",
+        "time": "9:15 AM",
+        "attendees": null,
+        "location": "Google Meet",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Sprint planning\",\"date\":\"25/11/2023\",\"time\":\"9:15 AM\",\"attendees\":null,\"location\":\"Google Meet\",\"duration\":null,\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 154,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Team sync-up on April 4, 2024 at 1:50pm w/ Kate, Dan, and Reed",
+      "true_output": {
+        "action": "Team sync-up",
+        "date": "04/04/2024",
+        "time": "1:50 PM",
+        "attendees": [
+          "Kate",
+          "Dan",
+          "Reed"
+        ],
+        "location": null,
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Team sync-up",
+        "date": "04/04/2024",
+        "time": "1:50 PM",
+        "attendees": [
+          "Kate",
+          "Dan",
+          "Reed"
+        ],
+        "location": "office lounge",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Team sync-up\",\"date\":\"04/04/2024\",\"time\":\"1:50 PM\",\"attendees\":[\"Kate\",\"Dan\",\"Reed\"],\"location\":\"office lounge\",\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 174,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "One-on-one 05 - Nov - 2023 9:00\u202fam Teams",
+      "true_output": {
+        "action": "One-on-one",
+        "date": "05/11/2023",
+        "time": "9:00 AM",
+        "attendees": null,
+        "location": "Teams",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "One-on-one",
+        "date": "05/11/2023",
+        "time": "9:00 AM",
+        "attendees": null,
+        "location": "Teams",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"One-on-one\",\"date\":\"05/11/2023\",\"time\":\"9:00 AM\",\"attendees\":null,\"location\":\"Teams\",\"duration\":null,\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 143,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Book holiday planning 2023-11-27 1:15pm with Sarah for 40 minutes.",
+      "true_output": {
+        "action": "Book holiday planning",
+        "date": "2023-11-27",
+        "time": "1:15 PM",
+        "attendees": [
+          "Sarah"
+        ],
+        "location": null,
+        "duration": "40 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Book holiday planning",
+        "date": "27/11/2023",
+        "time": "1:15 PM",
+        "attendees": [
+          "Sarah"
+        ],
+        "location": null,
+        "duration": "40 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Book holiday planning\",\"date\":\"27/11/2023\",\"time\":\"1:15 PM\",\"attendees\":[\"Sarah\"],\"location\":null,\"duration\":\"40 minutes\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 164,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Catch up with Mark and Lisa on 15 - October - 2023 at 2pm for 30 minutes on Microsoft Teams.",
+      "true_output": {
+        "action": "Catch up",
+        "date": "15/10/2023",
+        "time": "2:00 PM",
+        "attendees": [
+          "Mark",
+          "Lisa"
+        ],
+        "location": "Microsoft Teams",
+        "duration": "30 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Catch up",
+        "date": "15/10/2023",
+        "time": "2:00 PM",
+        "attendees": [
+          "Mark",
+          "Lisa"
+        ],
+        "location": "Microsoft Teams",
+        "duration": "30 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Catch up\",\"date\":\"15/10/2023\",\"time\":\"2:00 PM\",\"attendees\":[\"Mark\",\"Lisa\"],\"location\":\"Microsoft Teams\",\"duration\":\"30 minutes\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 170,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Catch-up 22nd, May 2024 2:00 pm w/ Alex on Google Meet 30 mins",
+      "true_output": {
+        "action": "Catch-up",
+        "date": "22/05/2024",
+        "time": "2:00 PM",
+        "attendees": [
+          "Alex"
+        ],
+        "location": "Google Meet",
+        "duration": "30 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Catch-up",
+        "date": "22/05/2024",
+        "time": "2:00 PM",
+        "attendees": [
+          "Alex"
+        ],
+        "location": "Google Meet",
+        "duration": "30 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Catch-up\",\"date\":\"22/05/2024\",\"time\":\"2:00 PM\",\"attendees\":[\"Alex\"],\"location\":\"Google Meet\",\"duration\":\"30 mins\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 156,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Virtual meeting Teams March 2, 2024, 10:00\u202fam, 20 mins.",
+      "true_output": {
+        "action": "Virtual meeting",
+        "date": "02/03/2024",
+        "time": "10:00 AM",
+        "attendees": null,
+        "location": "Teams",
+        "duration": "20 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Virtual meeting",
+        "date": "2/03/2024",
+        "time": "10:00 AM",
+        "attendees": null,
+        "location": "Teams",
+        "duration": "20 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Virtual meeting\",\"date\":\"2/03/2024\",\"time\":\"10:00 AM\",\"attendees\":null,\"location\":\"Teams\",\"duration\":\"20 mins\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 153,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Brainstorm 11th, Feb 2025 4:15 pm w/ Ben on Zoom 30 mins",
+      "true_output": {
+        "action": "Brainstorm",
+        "date": "11/02/2025",
+        "time": "4:15 PM",
+        "attendees": [
+          "Ben"
+        ],
+        "location": "Zoom",
+        "duration": "30 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Brainstorm",
+        "date": "11/02/2025",
+        "time": "4:15 PM",
+        "attendees": [
+          "Ben"
+        ],
+        "location": "Zoom",
+        "duration": "30 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Brainstorm\",\"date\":\"11/02/2025\",\"time\":\"4:15 PM\",\"attendees\":[\"Ben\"],\"location\":\"Zoom\",\"duration\":\"30 mins\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 150,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "2024-02-15 8 AM Breakfast with Grace at The Morning Diner for 90 minutes.",
+      "true_output": {
+        "action": "Breakfast",
+        "date": "15/02/2024",
+        "time": "8:00 AM",
+        "attendees": [
+          "Grace"
+        ],
+        "location": "The Morning Diner",
+        "duration": "90 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Breakfast",
+        "date": "15/02/2024",
+        "time": "8:00 AM",
+        "attendees": [
+          "Grace"
+        ],
+        "location": "The Morning Diner",
+        "duration": "90 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Breakfast\",\"date\":\"15/02/2024\",\"time\":\"8:00 AM\",\"attendees\":[\"Grace\"],\"location\":\"The Morning Diner\",\"duration\":\"90 minutes\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 167,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "2023-12-15 10 AM Meet with Sarah at the downtown caf\u00e9 for an hour.",
+      "true_output": {
+        "action": "Meet",
+        "date": "15/12/2023",
+        "time": "10:00 AM",
+        "attendees": [
+          "Sarah"
+        ],
+        "location": "downtown caf\u00e9",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Meet",
+        "date": "15/12/2023",
+        "time": "10:00 AM",
+        "attendees": [
+          "Sarah"
+        ],
+        "location": "downtown caf\u00e9",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Meet\",\"date\":\"15/12/2023\",\"time\":\"10:00 AM\",\"attendees\":[\"Sarah\"],\"location\":\"downtown caf\u00e9\",\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 155,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Quick check-in April 10, 2024, 1:30pm with Camilla, Lucas, and Sean",
+      "true_output": {
+        "action": "Quick check-in",
+        "date": "10/04/2024",
+        "time": "1:30 PM",
+        "attendees": [
+          "Camilla",
+          "Lucas",
+          "Sean"
+        ],
+        "location": null,
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Quick check-in",
+        "date": "10/04/2024",
+        "time": "1:30 PM",
+        "attendees": [
+          "Camilla",
+          "Lucas",
+          "Sean"
+        ],
+        "location": null,
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Quick check-in\",\"date\":\"10/04/2024\",\"time\":\"1:30 PM\",\"attendees\":[\"Camilla\",\"Lucas\",\"Sean\"],\"location\":null,\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 170,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Vendor mtg 2024-01-04 4:00\u202fpm w/ Ava & Liam Zoom 30m",
+      "true_output": {
+        "action": "Vendor mtg",
+        "date": "2024-01-04",
+        "time": "4:00 PM",
+        "attendees": [
+          "Ava",
+          "Liam"
+        ],
+        "location": "Zoom",
+        "duration": "30m",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Vendor mtg",
+        "date": "2024-01-04",
+        "time": "4:00 PM",
+        "attendees": [
+          "Ava",
+          "Liam"
+        ],
+        "location": "Zoom",
+        "duration": "30m",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Vendor mtg\",\"date\":\"2024-01-04\",\"time\":\"4:00 PM\",\"attendees\":[\"Ava\",\"Liam\"],\"location\":\"Zoom\",\"duration\":\"30m\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 153,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Check-in 2023-10-22 11:30\u202fam w/ Jake & Emma Google Meet 20m",
+      "true_output": {
+        "action": "Check-in",
+        "date": "2023-10-22",
+        "time": "11:30 AM",
+        "attendees": [
+          "Jake",
+          "Emma"
+        ],
+        "location": "Google Meet",
+        "duration": "20m",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": null,
+        "date": null,
+        "time": null,
+        "attendees": null,
+        "location": null,
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Check-in\",\"date\":\"22/10/2023\",\"time\":\"11:30 AM\",\"attendees\":[\"Jake\",\"Emma\"],\"location\":\"Google Meet\",\"duration\":20m,\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": false,
+        "has_all_fields": false,
+        "response_length": 158,
+        "parse_error": "Expecting ',' delimiter: line 1 column 126 (char 125)",
+        "looks_like_json": true,
+        "field_mentions": {
+          "action": true,
+          "date": true,
+          "time": true,
+          "attendees": true,
+          "location": true,
+          "duration": true,
+          "recurrence": true,
+          "notes": true
+        }
+      }
+    },
+    {
+      "input": "Hiking with Leo at Hillside Trail on April 6, 2024, 6:00 am for 2 hours.",
+      "true_output": {
+        "action": "Hiking",
+        "date": "06/04/2024",
+        "time": "6:00 AM",
+        "attendees": [
+          "Leo"
+        ],
+        "location": "Hillside Trail",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Hiking",
+        "date": "06/04/2024",
+        "time": "6:00 AM",
+        "attendees": [
+          "Leo"
+        ],
+        "location": "Hillside Trail",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Hiking\",\"date\":\"06/04/2024\",\"time\":\"6:00 AM\",\"attendees\":[\"Leo\"],\"location\":\"Hillside Trail\",\"duration\":\"2 hours\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 156,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Budget discussion scheduled for 01 - December - 2023, 10am, 1 hour, on Zoom with Oscar and Riley.",
+      "true_output": {
+        "action": "Budget discussion",
+        "date": "01/12/2023",
+        "time": "10:00 AM",
+        "attendees": [
+          "Oscar",
+          "Riley"
+        ],
+        "location": "Zoom",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Budget discussion",
+        "date": "01/12/2023",
+        "time": "10:00 AM",
+        "attendees": [
+          "Oscar",
+          "Riley"
+        ],
+        "location": "Zoom",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Budget discussion\",\"date\":\"01/12/2023\",\"time\":\"10:00 AM\",\"attendees\":[\"Oscar\",\"Riley\"],\"location\":\"Zoom\",\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 167,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Meet Feb 11, 2024 2pm w/ Eva + Raj 1hr",
+      "true_output": {
+        "action": "Meet",
+        "date": "11/02/2024",
+        "time": "2:00 PM",
+        "attendees": [
+          "Eva",
+          "Raj"
+        ],
+        "location": null,
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Meet",
+        "date": "11/02/2024",
+        "time": "2:00 PM",
+        "attendees": [
+          "Eva",
+          "Raj"
+        ],
+        "location": null,
+        "duration": "1hr",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Meet\",\"date\":\"11/02/2024\",\"time\":\"2:00 PM\",\"attendees\":[\"Eva\",\"Raj\"],\"location\":null,\"duration\":\"1hr\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 144,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "2024-01-05 5 PM Evening check-in with Ava at the city boardwalk caf\u00e9 for an hour.",
+      "true_output": {
+        "action": "Evening check-in",
+        "date": "2024-01-05",
+        "time": "5:00 PM",
+        "attendees": [
+          "Ava"
+        ],
+        "location": "city boardwalk caf\u00e9",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Check-in",
+        "date": "05/01/2024",
+        "time": "5:00 PM",
+        "attendees": [
+          "Ava"
+        ],
+        "location": "city boardwalk caf\u00e9",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Check-in\",\"date\":\"05/01/2024\",\"time\":\"5:00 PM\",\"attendees\":[\"Ava\"],\"location\":\"city boardwalk caf\u00e9\",\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 162,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Casual gathering at the community park on 13th, Jul 2024 around 5:30 pm, lasting 3 hours.",
+      "true_output": {
+        "action": "Casual gathering",
+        "date": "13/07/2024",
+        "time": "5:30 PM",
+        "attendees": null,
+        "location": "community park",
+        "duration": "3 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Casual gathering",
+        "date": "13/07/2024",
+        "time": "5:30 PM",
+        "attendees": null,
+        "location": "community park",
+        "duration": "3 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Casual gathering\",\"date\":\"13/07/2024\",\"time\":\"5:30 PM\",\"attendees\":null,\"location\":\"community park\",\"duration\":\"3 hours\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 163,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Update plan Feb 24, 2024 9am 30min w/ team",
+      "true_output": {
+        "action": "Update plan",
+        "date": "24/02/2024",
+        "time": "9:00 AM",
+        "attendees": [
+          "team"
+        ],
+        "location": null,
+        "duration": "30 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Update plan",
+        "date": "24/02/2024",
+        "time": "9:00 AM",
+        "attendees": [
+          "team"
+        ],
+        "location": null,
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Update plan\",\"date\":\"24/02/2024\",\"time\":\"9:00 AM\",\"attendees\":null,\"location\":null,\"duration\":null,\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 141,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Presentation review 30/11/2023 at 11am with Dan and Lucy, 1 hour.",
+      "true_output": {
+        "action": "Presentation review",
+        "date": "30/11/2023",
+        "time": "11:00 AM",
+        "attendees": [
+          "Dan",
+          "Lucy"
+        ],
+        "location": null,
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Presentation review",
+        "date": "30/11/2023",
+        "time": "11:00 AM",
+        "attendees": [
+          "Dan",
+          "Lucy"
+        ],
+        "location": null,
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Presentation review\",\"date\":\"30/11/2023\",\"time\":\"11:00 AM\",\"attendees\":[\"Dan\",\"Lucy\"],\"location\":null,\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 164,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Zoom mtg for status March 27, 2024 at 10:45\u202fam, 30 mins.",
+      "true_output": {
+        "action": "Zoom meeting for status",
+        "date": "27/03/2024",
+        "time": "10:45 AM",
+        "attendees": null,
+        "location": null,
+        "duration": "30 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Zoom mtg",
+        "date": "27/03/2024",
+        "time": "10:45 AM",
+        "attendees": null,
+        "location": "Zoom",
+        "duration": "30 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Zoom mtg\",\"date\":\"27/03/2024\",\"time\":\"10:45 AM\",\"attendees\":null,\"location\":\"Zoom\",\"duration\":\"30 mins\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 146,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Sales update Feb 25, 2024 11am w/ Vic + Jordan 30min",
+      "true_output": {
+        "action": "Sales update",
+        "date": "25/02/2024",
+        "time": "11:00 AM",
+        "attendees": [
+          "Vic",
+          "Jordan"
+        ],
+        "location": null,
+        "duration": "30 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Sales update",
+        "date": "25/02/2024",
+        "time": "11:00 AM",
+        "attendees": [
+          "Vic",
+          "Jordan"
+        ],
+        "location": null,
+        "duration": "30 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Sales update\",\"date\":\"25/02/2024\",\"time\":\"11:00 AM\",\"attendees\":[\"Vic\",\"Jordan\"],\"location\":null,\"duration\":\"30 minutes\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 163,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Confirm w/ Chris 9th, Dec 2023 09:15 Reception 30min",
+      "true_output": {
+        "action": "Confirm",
+        "date": "09/12/2023",
+        "time": "09:15 AM",
+        "attendees": [
+          "Chris"
+        ],
+        "location": "Reception",
+        "duration": "30min",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Confirm",
+        "date": "09/12/2023",
+        "time": "09:15 AM",
+        "attendees": [
+          "Chris"
+        ],
+        "location": "Reception",
+        "duration": "30min",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Confirm w/ Chris\",\"date\":\"09/12/2023\",\"time\":\"09:15 AM\",\"attendees\":[\"Chris\"],\"location\":\"Reception\",\"duration\":\"30min\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 162,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Arrange strategy meeting 12/12/2023 9:45am Boardroom with Luke, Chloe, and Liam 3hrs.",
+      "true_output": {
+        "action": "Arrange strategy meeting",
+        "date": "12/12/2023",
+        "time": "9:45 AM",
+        "attendees": [
+          "Luke",
+          "Chloe",
+          "Liam"
+        ],
+        "location": "Boardroom",
+        "duration": "3hrs",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Arrange strategy meeting",
+        "date": "12/12/2023",
+        "time": "9:45 AM",
+        "attendees": [
+          "Luke",
+          "Chloe",
+          "Liam"
+        ],
+        "location": "Boardroom",
+        "duration": "3hrs",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Arrange strategy meeting\",\"date\":\"12/12/2023\",\"time\":\"9:45 AM\",\"attendees\":[\"Luke\",\"Chloe\",\"Liam\"],\"location\":\"Boardroom\",\"duration\":\"3hrs\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 182,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Discuss proposal 2023-12-07 11:15\u202fam w/ Emma & Jake Webex 30m",
+      "true_output": {
+        "action": "Discuss proposal",
+        "date": "2023-12-07",
+        "time": "11:15 AM",
+        "attendees": [
+          "Emma",
+          "Jake"
+        ],
+        "location": "Webex",
+        "duration": "30m",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": null,
+        "date": null,
+        "time": null,
+        "attendees": null,
+        "location": null,
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Discuss proposal\",\"date\":\"2023-12-07\",\"time\":\"11:15 AM\",\"attendees\":[\"Emma\",\"Jake\"],\"location\":\"Webex\",\"duration\":30m,\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": false,
+        "has_all_fields": false,
+        "response_length": 160,
+        "parse_error": "Expecting ',' delimiter: line 1 column 128 (char 127)",
+        "looks_like_json": true,
+        "field_mentions": {
+          "action": true,
+          "date": true,
+          "time": true,
+          "attendees": true,
+          "location": true,
+          "duration": true,
+          "recurrence": true,
+          "notes": true
+        }
+      }
+    },
+    {
+      "input": "Weekly check-in Feb 5, 2024 9:30am 45min w/ team",
+      "true_output": {
+        "action": "Weekly check-in",
+        "date": "05/02/2024",
+        "time": "9:30 AM",
+        "attendees": [
+          "team"
+        ],
+        "location": null,
+        "duration": "45 minutes",
+        "recurrence": "weekly",
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Weekly check-in",
+        "date": "05/02/2024",
+        "time": "9:30 AM",
+        "attendees": null,
+        "location": null,
+        "duration": "45 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Weekly check-in\",\"date\":\"05/02/2024\",\"time\":\"9:30 AM\",\"attendees\":[\"team members\"],\"location\":null,\"duration\":\"45min\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 160,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Networking chat on 14 - November - 2023 at 5pm, lasting 1 hour, held on Google Meet with Charlotte and Max.",
+      "true_output": {
+        "action": "Networking chat",
+        "date": "14/11/2023",
+        "time": "5:00 PM",
+        "attendees": [
+          "Charlotte",
+          "Max"
+        ],
+        "location": "Google Meet",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Networking chat",
+        "date": "14/11/2023",
+        "time": "5:00 PM",
+        "attendees": [
+          "Charlotte",
+          "Max"
+        ],
+        "location": "Google Meet",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Networking chat\",\"date\":\"14/11/2023\",\"time\":\"5:00 PM\",\"attendees\":[\"Charlotte\",\"Max\"],\"location\":\"Google Meet\",\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 173,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Investor mtg 2024-02-03 11:30\u202fam May, John, Nick 90mins",
+      "true_output": {
+        "action": "Investor mtg",
+        "date": "2024-02-03",
+        "time": "11:30 AM",
+        "attendees": [
+          "May",
+          "John",
+          "Nick"
+        ],
+        "location": null,
+        "duration": "90 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Investor mtg",
+        "date": "2024-02-03",
+        "time": "11:30 AM",
+        "attendees": [
+          "John",
+          "Nick"
+        ],
+        "location": "May, John, Nick",
+        "duration": "90 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Investor mtg\",\"date\":\"2024-02-03\",\"time\":\"11:30 AM\",\"attendees\":[\"John\",\"Nick\"],\"location\":\"May, John, Nick\",\"duration\":\"90 mins\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 172,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Catch-up Feb 12, 2024 11am w/ Chris + Jamie 20min",
+      "true_output": {
+        "action": "Catch-up",
+        "date": "12/02/2024",
+        "time": "11:00 AM",
+        "attendees": [
+          "Chris",
+          "Jamie"
+        ],
+        "location": null,
+        "duration": "20 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Catch-up",
+        "date": "12/02/2024",
+        "time": "11:00 AM",
+        "attendees": [
+          "Chris",
+          "Jamie"
+        ],
+        "location": null,
+        "duration": "20min",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Catch-up\",\"date\":\"12/02/2024\",\"time\":\"11:00 AM\",\"attendees\":[\"Chris\",\"Jamie\"],\"location\":null,\"duration\":\"20min\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 155,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Client call 2023-10-27 4:30\u202fpm w/ Emily & Ryan Zoom 1h",
+      "true_output": {
+        "action": "Client call",
+        "date": "2023-10-27",
+        "time": "4:30 PM",
+        "attendees": [
+          "Emily",
+          "Ryan"
+        ],
+        "location": "Zoom",
+        "duration": "1h",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Client call",
+        "date": "2023-10-27",
+        "time": "4:30 PM",
+        "attendees": [
+          "Emily",
+          "Ryan"
+        ],
+        "location": "Zoom",
+        "duration": "1h",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Client call\",\"date\":\"2023-10-27\",\"time\":\"4:30 PM\",\"attendees\":[\"Emily\",\"Ryan\"],\"location\":\"Zoom\",\"duration\":\"1h\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 155,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Management call 30th Jun, 2024 12:00 Google Meet",
+      "true_output": {
+        "action": "Management call",
+        "date": "30/06/2024",
+        "time": "12:00 PM",
+        "attendees": null,
+        "location": "Google Meet",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Management call",
+        "date": "30/06/2024",
+        "time": "12:00 PM",
+        "attendees": null,
+        "location": "Google Meet",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Management call\",\"date\":\"30/06/2024\",\"time\":\"12:00 PM\",\"attendees\":null,\"location\":\"Google Meet\",\"duration\":null,\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 155,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Demo scheduled for 06/12/2023 at 10am with Sarah and Jack, 45 minutes.",
+      "true_output": {
+        "action": "Demo",
+        "date": "06/12/2023",
+        "time": "10:00 AM",
+        "attendees": [
+          "Sarah",
+          "Jack"
+        ],
+        "location": null,
+        "duration": "45 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Demo",
+        "date": "06/12/2023",
+        "time": "10:00 AM",
+        "attendees": [
+          "Sarah",
+          "Jack"
+        ],
+        "location": null,
+        "duration": "45 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Demo\",\"date\":\"06/12/2023\",\"time\":\"10:00 AM\",\"attendees\":[\"Sarah\",\"Jack\"],\"location\":null,\"duration\":\"45 minutes\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 155,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Vendor follow-up 27/10/2023 at 10am with James and Mary, 45 minutes.",
+      "true_output": {
+        "action": "Vendor follow-up",
+        "date": "27/10/2023",
+        "time": "10:00 AM",
+        "attendees": [
+          "James",
+          "Mary"
+        ],
+        "location": null,
+        "duration": "45 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Vendor follow-up",
+        "date": "27/10/2023",
+        "time": "10:00 AM",
+        "attendees": [
+          "James",
+          "Mary"
+        ],
+        "location": null,
+        "duration": "45 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Vendor follow-up\",\"date\":\"27/10/2023\",\"time\":\"10:00 AM\",\"attendees\":[\"James\",\"Mary\"],\"location\":null,\"duration\":\"45 minutes\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 167,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Sales review 10th, Dec 2026 10:30 am w/ Pam Teams 30 mins",
+      "true_output": {
+        "action": "Sales review",
+        "date": "10/12/2026",
+        "time": "10:30 AM",
+        "attendees": [
+          "Pam"
+        ],
+        "location": "Teams",
+        "duration": "30 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Sales review",
+        "date": "10/12/2026",
+        "time": "10:30 AM",
+        "attendees": [
+          "Pam"
+        ],
+        "location": "Teams",
+        "duration": "30 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Sales review\",\"date\":\"10/12/2026\",\"time\":\"10:30 AM\",\"attendees\":[\"Pam\"],\"location\":\"Teams\",\"duration\":\"30 mins\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 154,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "September 9, 2024 5pm review agenda Jamie, Ryan, Chloe online",
+      "true_output": {
+        "action": "review agenda",
+        "date": "09/09/2024",
+        "time": "5:00 PM",
+        "attendees": [
+          "Jamie",
+          "Ryan",
+          "Chloe"
+        ],
+        "location": "online",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "review agenda",
+        "date": "09/10/2024",
+        "time": "5:00 PM",
+        "attendees": [
+          "Jamie",
+          "Ryan",
+          "Chloe"
+        ],
+        "location": "online",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"review agenda\",\"date\":\"09/10/2024\",\"time\":\"5:00 PM\",\"attendees\":[\"Jamie\",\"Ryan\",\"Chloe\"],\"location\":\"online\",\"duration\":null,\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 167,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "2024-03-15 10:30 AM Creative brainstorming with Haley in studio 4, one hour.",
+      "true_output": {
+        "action": "Creative brainstorming",
+        "date": "15/03/2024",
+        "time": "10:30 AM",
+        "attendees": [
+          "Haley"
+        ],
+        "location": "studio 4",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Creative brainstorming",
+        "date": "15/03/2024",
+        "time": "10:30 AM",
+        "attendees": [
+          "Haley"
+        ],
+        "location": "studio 4",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Creative brainstorming\",\"date\":\"15/03/2024\",\"time\":\"10:30 AM\",\"attendees\":[\"Haley\"],\"location\":\"studio 4\",\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 168,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Coffee chat with Rachel at Midtown Cafe on May 3, 2024, 4:00 pm for 45 mins.",
+      "true_output": {
+        "action": "Coffee chat",
+        "date": "03/05/2024",
+        "time": "4:00 PM",
+        "attendees": [
+          "Rachel"
+        ],
+        "location": "Midtown Cafe",
+        "duration": "45 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Coffee chat",
+        "date": "03/05/2024",
+        "time": "4:00 PM",
+        "attendees": [
+          "Rachel"
+        ],
+        "location": "Midtown Cafe",
+        "duration": "45 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Coffee chat\",\"date\":\"03/05/2024\",\"time\":\"4:00 PM\",\"attendees\":[\"Rachel\"],\"location\":\"Midtown Cafe\",\"duration\":\"45 mins\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 162,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "2024-03-01 10 AM Training session with Leo at the corporate HQ for 2 hours.",
+      "true_output": {
+        "action": "Training session",
+        "date": "01/03/2024",
+        "time": "10:00 AM",
+        "attendees": [
+          "Leo"
+        ],
+        "location": "corporate HQ",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Training session",
+        "date": "01/03/2024",
+        "time": "10:00 AM",
+        "attendees": [
+          "Leo"
+        ],
+        "location": "corporate HQ",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Training session\",\"date\":\"01/03/2024\",\"time\":\"10:00 AM\",\"attendees\":[\"Leo\"],\"location\":\"corporate HQ\",\"duration\":\"2 hours\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 165,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "IT sync 22/11/2023 at 4pm with Greg and Sam, 60 minutes.",
+      "true_output": {
+        "action": "IT sync",
+        "date": "22/11/2023",
+        "time": "4:00 PM",
+        "attendees": [
+          "Greg",
+          "Sam"
+        ],
+        "location": null,
+        "duration": "60 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "IT sync",
+        "date": "22/11/2023",
+        "time": "4:00 PM",
+        "attendees": [
+          "Greg",
+          "Sam"
+        ],
+        "location": null,
+        "duration": "60 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"IT sync\",\"date\":\"22/11/2023\",\"time\":\"4:00 PM\",\"attendees\":[\"Greg\",\"Sam\"],\"location\":null,\"duration\":\"60 minutes\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 155,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Schedule the quarterly review meeting for October 8, 2026 at 10:15, reserve an hour.",
+      "true_output": {
+        "action": "Schedule the quarterly review meeting",
+        "date": "08/10/2026",
+        "time": "10:15 AM",
+        "attendees": null,
+        "location": null,
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Quarterly review meeting",
+        "date": "08/10/2026",
+        "time": "10:15 AM",
+        "attendees": null,
+        "location": null,
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Quarterly review meeting\",\"date\":\"08/10/2026\",\"time\":\"10:15 AM\",\"attendees\":null,\"location\":null,\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 159,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Call with Adam and Ellie on 20 - October - 2023 at 12:30pm for 1.5 hours using Microsoft Teams.",
+      "true_output": {
+        "action": "Call",
+        "date": "20/10/2023",
+        "time": "12:30 PM",
+        "attendees": [
+          "Adam",
+          "Ellie"
+        ],
+        "location": "Microsoft Teams",
+        "duration": "1.5 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Call with Adam and Ellie",
+        "date": "20/10/2023",
+        "time": "12:30 PM",
+        "attendees": [
+          "Adam",
+          "Ellie"
+        ],
+        "location": "Microsoft Teams",
+        "duration": "1.5 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Call with Adam and Ellie\",\"date\":\"20/10/2023\",\"time\":\"12:30 PM\",\"attendees\":[\"Adam\",\"Ellie\"],\"location\":\"Microsoft Teams\",\"duration\":\"1.5 hours\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 187,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Assign tasks Feb 7, 2024 11am w/ team 45min",
+      "true_output": {
+        "action": "Assign tasks",
+        "date": "07/02/2024",
+        "time": "11:00 AM",
+        "attendees": [
+          "team"
+        ],
+        "location": null,
+        "duration": "45 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Assign tasks",
+        "date": "07/02/2024",
+        "time": "11:00 AM",
+        "attendees": [
+          "team"
+        ],
+        "location": null,
+        "duration": "45 minutes",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Assign tasks\",\"date\":\"07/02/2024\",\"time\":\"11:00 AM\",\"attendees\":[\"team\"],\"location\":null,\"duration\":\"45 minutes\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 155,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Book a discussion about marketing strategies with Grace, Sophia, and Alex on 14th, May 2026 at 2 PM in the marketing office for 1 hour.",
+      "true_output": {
+        "action": "Book a discussion about marketing strategies",
+        "date": "14/05/2026",
+        "time": "2:00 PM",
+        "attendees": [
+          "Grace",
+          "Sophia",
+          "Alex"
+        ],
+        "location": "marketing office",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Book a discussion",
+        "date": "14/05/2026",
+        "time": "2:00 PM",
+        "attendees": [
+          "Grace",
+          "Sophia",
+          "Alex"
+        ],
+        "location": "marketing office",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Book a discussion\",\"date\":\"14/05/2026\",\"time\":\"2:00 PM\",\"attendees\":[\"Grace\",\"Sophia\",\"Alex\"],\"location\":\"marketing office\",\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 186,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Yoga class on March 28, 2024, 6:30 am at Green Studio for 1 hour.",
+      "true_output": {
+        "action": "Yoga class",
+        "date": "28/03/2024",
+        "time": "6:30 AM",
+        "attendees": null,
+        "location": "Green Studio",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Yoga class",
+        "date": "28/03/2024",
+        "time": "6:30 AM",
+        "attendees": null,
+        "location": "Green Studio",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Yoga class\",\"date\":\"28/03/2024\",\"time\":\"6:30 AM\",\"attendees\":null,\"location\":\"Green Studio\",\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 154,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Weekly sync with Jane on March 21, 2024, 12:00 pm at Office Meeting Room for 1 hour.",
+      "true_output": {
+        "action": "Weekly sync",
+        "date": "21/03/2024",
+        "time": "12:00 PM",
+        "attendees": [
+          "Jane"
+        ],
+        "location": "Office Meeting Room",
+        "duration": "1 hour",
+        "recurrence": "weekly",
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Weekly sync",
+        "date": "21/03/2024",
+        "time": "12:00 PM",
+        "attendees": [
+          "Jane"
+        ],
+        "location": "Office Meeting Room",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Weekly sync\",\"date\":\"21/03/2024\",\"time\":\"12:00 PM\",\"attendees\":[\"Jane\"],\"location\":\"Office Meeting Room\",\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 167,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Business lunch at that seafood spot on 2nd, Nov 2024 at 1:00 pm for roughly 2 hours.",
+      "true_output": {
+        "action": "Business lunch",
+        "date": "02/11/2024",
+        "time": "1:00 PM",
+        "attendees": null,
+        "location": "that seafood spot",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Business lunch",
+        "date": "2nd, November 2024",
+        "time": "1:00 PM",
+        "attendees": null,
+        "location": "seafood spot",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Business lunch\",\"date\":\"2nd, Nov 2024\",\"time\":\"1:00 PM\",\"attendees\":null,\"location\":\"seafood spot\",\"duration\":\"2 hours\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 162,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Project discussion 18 - Oct - 2023 11:00\u202fam virtual",
+      "true_output": {
+        "action": "Project discussion",
+        "date": "18/10/2023",
+        "time": "11:00 AM",
+        "attendees": null,
+        "location": "virtual",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Project discussion",
+        "date": "18/10/2023",
+        "time": "11:00 AM",
+        "attendees": null,
+        "location": "virtual",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Project discussion\",\"date\":\"18/10/2023\",\"time\":\"11:00 AM\",\"attendees\":null,\"location\":\"virtual\",\"duration\":null,\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 154,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Review session 27 - Oct - 2023 1:30\u202fpm Zoom",
+      "true_output": {
+        "action": "Review session",
+        "date": "27/10/2023",
+        "time": "1:30 PM",
+        "attendees": null,
+        "location": "Zoom",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Review session",
+        "date": "27/10/2023",
+        "time": "1:30 PM",
+        "attendees": null,
+        "location": "Zoom",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Review session\",\"date\":\"27/10/2023\",\"time\":\"1:30 PM\",\"attendees\":null,\"location\":\"Zoom\",\"duration\":null,\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 146,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Brainstorm on Google Meet March 7, 2024, 11:30\u202fam, 1 hr.",
+      "true_output": {
+        "action": "Brainstorm on Google Meet",
+        "date": "07/03/2024",
+        "time": "11:30 AM",
+        "attendees": null,
+        "location": null,
+        "duration": "1 hr",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Brainstorm",
+        "date": "07/03/2024",
+        "time": "11:30 AM",
+        "attendees": null,
+        "location": "Google Meet",
+        "duration": "1 hr",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Brainstorm\",\"date\":\"07/03/2024\",\"time\":\"11:30 AM\",\"attendees\":null,\"location\":\"Google Meet\",\"duration\":\"1 hr\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 152,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Catch-up meeting May 30, 2024, 11am with Alex, Mia, and Clark (30 mins)",
+      "true_output": {
+        "action": "Catch-up meeting",
+        "date": "30/05/2024",
+        "time": "11:00 AM",
+        "attendees": [
+          "Alex",
+          "Mia",
+          "Clark"
+        ],
+        "location": null,
+        "duration": "30 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Catch-up meeting",
+        "date": "03/05/2024",
+        "time": "11:00 AM",
+        "attendees": [
+          "Alex",
+          "Mia",
+          "Clark"
+        ],
+        "location": null,
+        "duration": "30 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Catch-up meeting\",\"date\":\"03/05/2024\",\"time\":\"11:00 AM\",\"attendees\":[\"Alex\",\"Mia\",\"Clark\"],\"location\":null,\"duration\":\"30 mins\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 170,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Catch-up about project on July 25, 2024 at 11am w/ team (1 hour)",
+      "true_output": {
+        "action": "Catch-up about project",
+        "date": "25/07/2024",
+        "time": "11:00 AM",
+        "attendees": [
+          "team"
+        ],
+        "location": null,
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Catch-up",
+        "date": "25/07/2024",
+        "time": "11:00 AM",
+        "attendees": [
+          "team"
+        ],
+        "location": null,
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Catch-up\",\"date\":\"25/07/2024\",\"time\":\"11:00 AM\",\"attendees\":[\"team\"],\"location\":null,\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 147,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Go over notes w/ Jamie 17th, Dec 2023 18:30 Library 1hr",
+      "true_output": {
+        "action": "Go over notes",
+        "date": "17/12/2023",
+        "time": "18:30",
+        "attendees": [
+          "Jamie"
+        ],
+        "location": "Library",
+        "duration": "1hr",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Go over notes",
+        "date": "17/12/2023",
+        "time": "18:30",
+        "attendees": [
+          "Jamie"
+        ],
+        "location": "Library",
+        "duration": "1hr",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Go over notes\",\"date\":\"17/12/2023\",\"time\":\"18:30\",\"attendees\":[\"Jamie\"],\"location\":\"Library\",\"duration\":\"1hr\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 152,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Wrap-up discussion June 1, 2024 at 5pm w/ Kate, Ben, and Chris",
+      "true_output": {
+        "action": "Wrap-up discussion",
+        "date": "01/06/2024",
+        "time": "5:00 PM",
+        "attendees": [
+          "Kate",
+          "Ben",
+          "Chris"
+        ],
+        "location": null,
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Wrap-up discussion",
+        "date": "1/06/2024",
+        "time": "5:00 PM",
+        "attendees": [
+          "Kate",
+          "Ben",
+          "Chris"
+        ],
+        "location": null,
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Wrap-up discussion\",\"date\":\"1/06/2024\",\"time\":\"5:00 PM\",\"attendees\":[\"Kate\",\"Ben\",\"Chris\"],\"location\":null,\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 169,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Book an annual review on June 6, 2024 at 10:30 am for 2 hours with Derek and Irene at the West Wing Office.",
+      "true_output": {
+        "action": "Book an annual review",
+        "date": "06/06/2024",
+        "time": "10:30 AM",
+        "attendees": [
+          "Derek",
+          "Irene"
+        ],
+        "location": "West Wing Office",
+        "duration": "2 hours",
+        "recurrence": "annual",
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Book an annual review",
+        "date": "06/06/2024",
+        "time": "10:30 AM",
+        "attendees": [
+          "Derek",
+          "Irene"
+        ],
+        "location": "West Wing Office",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Book an annual review\",\"date\":\"06/06/2024\",\"time\":\"10:30 AM\",\"attendees\":[\"Derek\",\"Irene\"],\"location\":\"West Wing Office\",\"duration\":\"2 hours\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 184,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "June 19, 2024 8am prepare documents Julia, Alex, Ethan on Google Meet",
+      "true_output": {
+        "action": "prepare documents",
+        "date": "19/06/2024",
+        "time": "8:00 AM",
+        "attendees": [
+          "Julia",
+          "Alex",
+          "Ethan"
+        ],
+        "location": "Google Meet",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "prepare documents",
+        "date": "19/06/2024",
+        "time": "8:00 AM",
+        "attendees": [
+          "Julia",
+          "Alex",
+          "Ethan"
+        ],
+        "location": "Google Meet",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"prepare documents\",\"date\":\"19/06/2024\",\"time\":\"8:00 AM\",\"attendees\":[\"Julia\",\"Alex\",\"Ethan\"],\"location\":\"Google Meet\",\"duration\":null,\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 176,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Discuss project updates March 20, 2024 at 4:00\u202fpm, 30 mins Zoom.",
+      "true_output": {
+        "action": "Discuss project updates",
+        "date": "20/03/2024",
+        "time": "4:00 PM",
+        "attendees": null,
+        "location": "Zoom",
+        "duration": "30 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Discuss project updates",
+        "date": "20/03/2024",
+        "time": "4:00 PM",
+        "attendees": null,
+        "location": "Zoom",
+        "duration": "30 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Discuss project updates\",\"date\":\"20/03/2024\",\"time\":\"4:00 PM\",\"attendees\":null,\"location\":\"Zoom\",\"duration\":\"30 mins\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 160,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Presentation session on 10 - December - 2023, 3:30pm, with Chloe and Ryan for 1 hour via Google Meet.",
+      "true_output": {
+        "action": "Presentation session",
+        "date": "10/12/2023",
+        "time": "3:30 PM",
+        "attendees": [
+          "Chloe",
+          "Ryan"
+        ],
+        "location": "Google Meet",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Presentation session",
+        "date": "10/12/2023",
+        "time": "3:30 PM",
+        "attendees": [
+          "Chloe",
+          "Ryan"
+        ],
+        "location": "Google Meet",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Presentation session\",\"date\":\"10/12/2023\",\"time\":\"3:30 PM\",\"attendees\":[\"Chloe\",\"Ryan\"],\"location\":\"Google Meet\",\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 175,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Brainstorm ideas 31 - Oct - 2023 2:45\u202fpm Zoom",
+      "true_output": {
+        "action": "Brainstorm ideas",
+        "date": "31/10/2023",
+        "time": "2:45 PM",
+        "attendees": null,
+        "location": "Zoom",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Brainstorm ideas",
+        "date": "31/10/2023",
+        "time": "2:45 PM",
+        "attendees": null,
+        "location": "Zoom",
+        "duration": null,
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Brainstorm ideas\",\"date\":\"31/10/2023\",\"time\":\"2:45 PM\",\"attendees\":null,\"location\":\"Zoom\",\"duration\":null,\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 148,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "2023-11-26 10 AM Meet Madison at the city library garden area, one-hour walk.",
+      "true_output": {
+        "action": "Meet",
+        "date": "26/11/2023",
+        "time": "10:00 AM",
+        "attendees": [
+          "Madison"
+        ],
+        "location": "city library garden area",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": "one-hour walk"
+      },
+      "predicted_output": {
+        "action": "Meet",
+        "date": "26/11/2023",
+        "time": "10:00 AM",
+        "attendees": [
+          "Madison"
+        ],
+        "location": "city library garden area",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Meet\",\"date\":\"26/11/2023\",\"time\":\"10:00 AM\",\"attendees\":[\"Madison\"],\"location\":\"city library garden area\",\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 168,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Add a placeholder for the advisory board meeting on December 9, 2025 at 12:45, plan for one hour.",
+      "true_output": {
+        "action": "Add a placeholder for the advisory board meeting",
+        "date": "09/12/2025",
+        "time": "12:45 PM",
+        "attendees": null,
+        "location": null,
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Add a placeholder for the advisory board meeting",
+        "date": "09/12/2025",
+        "time": "12:45 PM",
+        "attendees": null,
+        "location": null,
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Add a placeholder for the advisory board meeting\",\"date\":\"09/12/2025\",\"time\":\"12:45 PM\",\"attendees\":null,\"location\":null,\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 183,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "2023-11-30 11 AM Discuss project updates with Rachel at coworking space for 2 hours.",
+      "true_output": {
+        "action": "Discuss project updates",
+        "date": "30/11/2023",
+        "time": "11:00 AM",
+        "attendees": [
+          "Rachel"
+        ],
+        "location": "coworking space",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Discuss project updates",
+        "date": "30/11/2023",
+        "time": "11:00 AM",
+        "attendees": [
+          "Rachel"
+        ],
+        "location": "coworking space",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Discuss project updates\",\"date\":\"30/11/2023\",\"time\":\"11:00 AM\",\"attendees\":[\"Rachel\"],\"location\":\"coworking space\",\"duration\":\"2 hours\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 178,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Organize tech demo 03/11/2023 2pm IT Lab with Grace, Noah, and Emma 1hr.",
+      "true_output": {
+        "action": "Organize tech demo",
+        "date": "03/11/2023",
+        "time": "2:00 PM",
+        "attendees": [
+          "Grace",
+          "Noah",
+          "Emma"
+        ],
+        "location": "IT Lab",
+        "duration": "1hr",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Organize tech demo",
+        "date": "03/11/2023",
+        "time": "2:00 PM",
+        "attendees": [
+          "Grace",
+          "Noah",
+          "Emma"
+        ],
+        "location": "IT Lab",
+        "duration": "1hr",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Organize tech demo\",\"date\":\"03/11/2023\",\"time\":\"2:00 PM\",\"attendees\":[\"Grace\",\"Noah\",\"Emma\"],\"location\":\"IT Lab\",\"duration\":\"1hr\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 172,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Running group meetup at Central Park on March 25, 2024, 7:00 am for 90 mins.",
+      "true_output": {
+        "action": "Running group meetup",
+        "date": "25/03/2024",
+        "time": "7:00 AM",
+        "attendees": null,
+        "location": "Central Park",
+        "duration": "90 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Running group meetup",
+        "date": "25/03/2024",
+        "time": "7:00 AM",
+        "attendees": null,
+        "location": "Central Park",
+        "duration": "90 mins",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Running group meetup\",\"date\":\"25/03/2024\",\"time\":\"7:00 AM\",\"attendees\":null,\"location\":\"Central Park\",\"duration\":\"90 mins\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 165,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Book a training session on May 9, 2024 at 9:00 am for 2 hours with Lily and Daniel at the North Office Training Hall.",
+      "true_output": {
+        "action": "Book a training session",
+        "date": "09/05/2024",
+        "time": "9:00 AM",
+        "attendees": [
+          "Lily",
+          "Daniel"
+        ],
+        "location": "North Office Training Hall",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Book a training session",
+        "date": "09/05/2024",
+        "time": "9:00 AM",
+        "attendees": [
+          "Lily",
+          "Daniel"
+        ],
+        "location": "North Office Training Hall",
+        "duration": "2 hours",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Book a training session\",\"date\":\"09/05/2024\",\"time\":\"9:00 AM\",\"attendees\":[\"Lily\",\"Daniel\"],\"location\":\"North Office Training Hall\",\"duration\":\"2 hours\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 195,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Organize a tech briefing on September 12, 2024 at 3:30 pm for 1 hour with Kevin and Nora at Tech Tower, Room 18.",
+      "true_output": {
+        "action": "Organize a tech briefing",
+        "date": "12/09/2024",
+        "time": "3:30 PM",
+        "attendees": [
+          "Kevin",
+          "Nora"
+        ],
+        "location": "Tech Tower, Room 18",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Organize a tech briefing",
+        "date": "12/09/2024",
+        "time": "3:30 PM",
+        "attendees": [
+          "Kevin",
+          "Nora"
+        ],
+        "location": "Tech Tower, Room 18",
+        "duration": "1 hour",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Organize a tech briefing\",\"date\":\"12/09/2024\",\"time\":\"3:30 PM\",\"attendees\":[\"Kevin\",\"Nora\"],\"location\":\"Tech Tower, Room 18\",\"duration\":\"1 hour\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 187,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    },
+    {
+      "input": "Set budget meeting 13/10/2023 11:30am Conference Room 2 with Olivia, Mason, and Rachel 2hrs.",
+      "true_output": {
+        "action": "Set budget meeting",
+        "date": "13/10/2023",
+        "time": "11:30 AM",
+        "attendees": [
+          "Olivia",
+          "Mason",
+          "Rachel"
+        ],
+        "location": "Conference Room 2",
+        "duration": "2hrs",
+        "recurrence": null,
+        "notes": null
+      },
+      "predicted_output": {
+        "action": "Set budget meeting",
+        "date": "13/10/2023",
+        "time": "11:30 AM",
+        "attendees": [
+          "Olivia",
+          "Mason",
+          "Rachel"
+        ],
+        "location": "Conference Room",
+        "duration": "2hrs",
+        "recurrence": null,
+        "notes": null
+      },
+      "raw_response": "{\"action\":\"Set budget meeting\",\"date\":\"13/10/2023\",\"time\":\"11:30 AM\",\"attendees\":[\"Olivia\",\"Mason\",\"Rachel\"],\"location\":\"Conference Room\",\"duration\":\"2hrs\",\"recurrence\":null,\"notes\":null}",
+      "quality": {
+        "valid_json": true,
+        "has_all_fields": true,
+        "response_length": 187,
+        "parse_error": null,
+        "missing_fields": [],
+        "extra_fields": []
+      }
+    }
+  ],
+  "metrics": {
+    "exact_match_accuracy": 0.9191176470588235,
+    "field_accuracy": {
+      "action": 0.8907563025210085,
+      "date": 0.8571428571428571,
+      "time": 0.9747899159663865,
+      "attendees": 0.9327731092436975,
+      "location": 0.8823529411764706,
+      "duration": 0.8739495798319328,
+      "recurrence": 0.9663865546218487,
+      "notes": 0.9747899159663865
+    },
+    "valid_json_rate": 0.9831932773109243,
+    "complete_fields_rate": 0.9831932773109243,
+    "avg_response_length": 164.6386554621849,
+    "exact_match_distribution": {
+      "perfect_match": 0.6050420168067226,
+      "partial_match": 0.3949579831932773,
+      "no_match": 0.0
+    }
+  },
+  "field_analysis": {
+    "action": {
+      "accuracy": 0.8907563025210085,
+      "total_samples": 119,
+      "null_in_ground_truth": 0,
+      "null_in_predictions": 2,
+      "correct_predictions": 106,
+      "false_positives": 0,
+      "false_negatives": 2,
+      "common_errors": {
+        "true:Product review -> pred:product review": 1,
+        "true:financial planning session -> pred:Schedule a financial planning session": 1,
+        "true:team sync -> pred:Book me in for a team sync": 1,
+        "true:Zoom meeting -> pred:Zoom mtg": 1,
+        "true:Check-in -> pred:None": 1,
+        "true:Evening check-in -> pred:Check-in": 1,
+        "true:Zoom meeting for status -> pred:Zoom mtg": 1,
+        "true:Discuss proposal -> pred:None": 1,
+        "true:Schedule the quarterly review meeting -> pred:Quarterly review meeting": 1,
+        "true:Call -> pred:Call with Adam and Ellie": 1,
+        "true:Book a discussion about marketing strategies -> pred:Book a discussion": 1,
+        "true:Brainstorm on Google Meet -> pred:Brainstorm": 1,
+        "true:Catch-up about project -> pred:Catch-up": 1
+      }
+    },
+    "date": {
+      "accuracy": 0.8571428571428571,
+      "total_samples": 119,
+      "null_in_ground_truth": 0,
+      "null_in_predictions": 2,
+      "correct_predictions": 102,
+      "false_positives": 0,
+      "false_negatives": 2,
+      "common_errors": {
+        "true:02/11/2026 -> pred:2nd, November 2026": 1,
+        "true:31/03/2025 -> pred:03/04/2025": 1,
+        "true:2023-12-14 -> pred:14/12/2023": 1,
+        "true:02/11/2023 -> pred:2nd": 1,
+        "true:2023-11-15 -> pred:15/11/2023": 1,
+        "true:2023-12-18 -> pred:18/12/2023": 1,
+        "true:30/01/2024 -> pred:03/12/2024": 1,
+        "true:2023-12-12 -> pred:12/12/2023": 1,
+        "true:2023-11-27 -> pred:27/11/2023": 1,
+        "true:02/03/2024 -> pred:2/03/2024": 1,
+        "true:2023-10-22 -> pred:None": 1,
+        "true:2024-01-05 -> pred:05/01/2024": 1,
+        "true:2023-12-07 -> pred:None": 1,
+        "true:09/09/2024 -> pred:09/10/2024": 1,
+        "true:02/11/2024 -> pred:2nd, November 2024": 1,
+        "true:30/05/2024 -> pred:03/05/2024": 1,
+        "true:01/06/2024 -> pred:1/06/2024": 1
+      }
+    },
+    "time": {
+      "accuracy": 0.9747899159663865,
+      "total_samples": 119,
+      "null_in_ground_truth": 0,
+      "null_in_predictions": 2,
+      "correct_predictions": 116,
+      "false_positives": 0,
+      "false_negatives": 2,
+      "common_errors": {
+        "true:1:00 PM -> pred:10:00 AM": 1,
+        "true:11:30 AM -> pred:None": 1,
+        "true:11:15 AM -> pred:None": 1
+      }
+    },
+    "attendees": {
+      "accuracy": 0.9327731092436975,
+      "total_samples": 119,
+      "null_in_ground_truth": 24,
+      "null_in_predictions": 28,
+      "correct_predictions": 111,
+      "false_positives": 1,
+      "false_negatives": 5,
+      "common_errors": {
+        "true:None -> pred:['Alex', 'Jamie', 'Taylor']": 1,
+        "true:['team'] -> pred:None": 3,
+        "true:['Max'] -> pred:['Alex', 'Jamie', 'Taylor']": 1,
+        "true:['Jake', 'Emma'] -> pred:None": 1,
+        "true:['Emma', 'Jake'] -> pred:None": 1,
+        "true:['May', 'John', 'Nick'] -> pred:['John', 'Nick']": 1
+      }
+    },
+    "location": {
+      "accuracy": 0.8823529411764706,
+      "total_samples": 119,
+      "null_in_ground_truth": 38,
+      "null_in_predictions": 31,
+      "correct_predictions": 105,
+      "false_positives": 9,
+      "false_negatives": 2,
+      "common_errors": {
+        "true:None -> pred:Google Meet": 2,
+        "true:online -> pred:online call": 1,
+        "true:None -> pred:15 minutes": 1,
+        "true:None -> pred:Zoom": 2,
+        "true:None -> pred:45mins": 1,
+        "true:None -> pred:30 mins": 1,
+        "true:None -> pred:office lounge": 1,
+        "true:Google Meet -> pred:None": 1,
+        "true:Webex -> pred:None": 1,
+        "true:None -> pred:May, John, Nick": 1,
+        "true:that seafood spot -> pred:seafood spot": 1,
+        "true:Conference Room 2 -> pred:Conference Room": 1
+      }
+    },
+    "duration": {
+      "accuracy": 0.8739495798319328,
+      "total_samples": 119,
+      "null_in_ground_truth": 16,
+      "null_in_predictions": 15,
+      "correct_predictions": 104,
+      "false_positives": 5,
+      "false_negatives": 4,
+      "common_errors": {
+        "true:None -> pred:1hr": 2,
+        "true:1hr -> pred:None": 1,
+        "true:15 minutes -> pred:1 hour": 1,
+        "true:45 mins -> pred:1 hour": 1,
+        "true:1 hour -> pred:about an hour": 1,
+        "true:30 mins -> pred:1 hour": 1,
+        "true:None -> pred:1 hour": 3,
+        "true:20m -> pred:None": 1,
+        "true:1 hour -> pred:1hr": 1,
+        "true:30 minutes -> pred:None": 1,
+        "true:30m -> pred:None": 1,
+        "true:20 minutes -> pred:20min": 1
+      }
+    },
+    "recurrence": {
+      "accuracy": 0.9663865546218487,
+      "total_samples": 119,
+      "null_in_ground_truth": 115,
+      "null_in_predictions": 119,
+      "correct_predictions": 115,
+      "false_positives": 0,
+      "false_negatives": 4,
+      "common_errors": {
+        "true:weekly -> pred:None": 3,
+        "true:annual -> pred:None": 1
+      }
+    },
+    "notes": {
+      "accuracy": 0.9747899159663865,
+      "total_samples": 119,
+      "null_in_ground_truth": 116,
+      "null_in_predictions": 119,
+      "correct_predictions": 116,
+      "false_positives": 0,
+      "false_negatives": 3,
+      "common_errors": {
+        "true:to finalize -> pred:None": 1,
+        "true:Project updates -> pred:None": 1,
+        "true:one-hour walk -> pred:None": 1
+      }
+    }
+  },
+  "error_analysis": {
+    "json_parse_errors": 2,
+    "incomplete_responses": 2,
+    "common_failure_patterns": {
+      "json_syntax_error": 2
+    },
+    "field_extraction_issues": {}
+  },
+  "f1_metrics": {
+    "action": {
+      "exact_f1": {
+        "precision": 1.0,
+        "recall": 0.8907563025210085,
+        "f1": 0.9422222222222222
+      },
+      "token_f1": {
+        "precision": 0.958703481392557,
+        "recall": 0.9518207282913165,
+        "f1": 0.9552497071214544
+      },
+      "binary_f1": {
+        "precision": 1.0,
+        "recall": 0.9831932773109243,
+        "f1": 0.9915254237288136
+      }
+    },
+    "date": {
+      "exact_f1": {
+        "precision": 1.0,
+        "recall": 0.8571428571428571,
+        "f1": 0.9230769230769231
+      },
+      "token_f1": {
+        "precision": 0.9439775910364147,
+        "recall": 0.9467787114845939,
+        "f1": 0.9453760763564686
+      },
+      "binary_f1": {
+        "precision": 1.0,
+        "recall": 0.9831932773109243,
+        "f1": 0.9915254237288136
+      }
+    },
+    "time": {
+      "exact_f1": {
+        "precision": 1.0,
+        "recall": 0.9747899159663865,
+        "f1": 0.9872340425531915
+      },
+      "token_f1": {
+        "precision": 0.9775910364145659,
+        "recall": 0.9775910364145659,
+        "f1": 0.9775910364145659
+      },
+      "binary_f1": {
+        "precision": 1.0,
+        "recall": 0.9831932773109243,
+        "f1": 0.9915254237288136
+      }
+    },
+    "attendees": {
+      "exact_f1": {
+        "precision": 1.0,
+        "recall": 0.9263157894736842,
+        "f1": 0.9617486338797814
+      },
+      "token_f1": {
+        "precision": 0.9270833333333334,
+        "recall": 0.923611111111111,
+        "f1": 0.9253439649781113
+      },
+      "binary_f1": {
+        "precision": 0.989010989010989,
+        "recall": 0.9473684210526315,
+        "f1": 0.967741935483871
+      }
+    },
+    "location": {
+      "exact_f1": {
+        "precision": 1.0,
+        "recall": 0.9382716049382716,
+        "f1": 0.9681528662420382
+      },
+      "token_f1": {
+        "precision": 0.8722222222222222,
+        "recall": 0.8703703703703703,
+        "f1": 0.8712953123155037
+      },
+      "binary_f1": {
+        "precision": 0.8977272727272727,
+        "recall": 0.9753086419753086,
+        "f1": 0.9349112426035503
+      }
+    },
+    "duration": {
+      "exact_f1": {
+        "precision": 1.0,
+        "recall": 0.9029126213592233,
+        "f1": 0.9489795918367347
+      },
+      "token_f1": {
+        "precision": 0.8641975308641976,
+        "recall": 0.8657407407407407,
+        "f1": 0.8649684474840585
+      },
+      "binary_f1": {
+        "precision": 0.9519230769230769,
+        "recall": 0.9611650485436893,
+        "f1": 0.9565217391304348
+      }
+    },
+    "recurrence": {
+      "exact_f1": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "token_f1": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "binary_f1": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "notes": {
+      "exact_f1": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "token_f1": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "binary_f1": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "macro_averages": {
+      "exact_f1": 0.7164267849763614,
+      "token_f1": 0.6924780680837703,
+      "binary_f1": 0.7292188985505371
+    }
+  }
+}

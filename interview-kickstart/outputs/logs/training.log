@@ -1,0 +1,54 @@
+2025-08-02 21:14:15,921 - INFO - Starting training...
+2025-08-02 21:14:15,921 - INFO - Train samples: 100
+2025-08-02 21:14:15,921 - INFO - Eval samples: 20
+2025-08-02 21:16:33,776 - INFO - Starting training...
+2025-08-02 21:16:33,776 - INFO - Train samples: 100
+2025-08-02 21:16:33,777 - INFO - Eval samples: 20
+2025-08-02 21:20:46,213 - INFO - Epoch 0 completed:
+2025-08-02 21:20:46,214 - INFO -   Train Loss: 1.9596
+2025-08-02 21:20:46,214 - INFO -   Eval Loss: 0.1502
+2025-08-02 21:20:46,214 - INFO -   Exact Match: 0.8187
+2025-08-02 21:20:46,214 - INFO -   Action Accuracy: 0.9000
+2025-08-02 21:20:46,214 - INFO -   Date Accuracy: 0.8000
+2025-08-02 21:20:46,214 - INFO -   Time Accuracy: 1.0000
+2025-08-02 21:20:46,214 - INFO -   Location Accuracy: 0.5500
+2025-08-02 21:20:46,214 - INFO -   Duration Accuracy: 0.5500
+2025-08-02 21:20:54,286 - INFO - New best model saved with score: 0.8187
+2025-08-02 21:20:54,290 - INFO - Checkpoint saved: test_outputs/checkpoint_epoch_0.pt
+2025-08-02 21:20:55,856 - INFO - Training plots saved to test_outputs/training_plots.png
+2025-08-02 21:21:23,855 - INFO - Starting training...
+2025-08-02 21:21:23,856 - INFO - Train samples: 100
+2025-08-02 21:21:23,856 - INFO - Eval samples: 20
+2025-08-02 21:25:17,016 - INFO - Epoch 0 completed:
+2025-08-02 21:25:17,017 - INFO -   Train Loss: 1.9771
+2025-08-02 21:25:17,017 - INFO -   Eval Loss: 0.1483
+2025-08-02 21:25:17,017 - INFO -   Exact Match: 0.7250
+2025-08-02 21:25:17,017 - INFO -   Action Accuracy: 0.8000
+2025-08-02 21:25:17,017 - INFO -   Date Accuracy: 0.7500
+2025-08-02 21:25:17,017 - INFO -   Time Accuracy: 0.9000
+2025-08-02 21:25:17,017 - INFO -   Location Accuracy: 0.4500
+2025-08-02 21:25:17,017 - INFO -   Duration Accuracy: 0.3000
+2025-08-02 21:25:23,928 - INFO - New best model saved with score: 0.7250
+2025-08-02 21:25:23,928 - INFO - Checkpoint saved: test_outputs/checkpoint_epoch_0.pt
+2025-08-02 21:29:12,968 - INFO - Epoch 1 completed:
+2025-08-02 21:29:12,968 - INFO -   Train Loss: 0.1204
+2025-08-02 21:29:12,968 - INFO -   Eval Loss: 0.1196
+2025-08-02 21:29:12,968 - INFO -   Exact Match: 0.8562
+2025-08-02 21:29:12,968 - INFO -   Action Accuracy: 0.8000
+2025-08-02 21:29:12,968 - INFO -   Date Accuracy: 0.8000
+2025-08-02 21:29:12,969 - INFO -   Time Accuracy: 0.9000
+2025-08-02 21:29:12,969 - INFO -   Location Accuracy: 0.7500
+2025-08-02 21:29:12,969 - INFO -   Duration Accuracy: 0.8000
+2025-08-02 21:29:20,567 - INFO - New best model saved with score: 0.8562
+2025-08-02 21:29:20,567 - INFO - Checkpoint saved: test_outputs/checkpoint_epoch_1.pt
+2025-08-02 21:33:20,522 - INFO - Epoch 2 completed:
+2025-08-02 21:33:20,522 - INFO -   Train Loss: 0.0891
+2025-08-02 21:33:20,522 - INFO -   Eval Loss: 0.1125
+2025-08-02 21:33:20,522 - INFO -   Exact Match: 0.8313
+2025-08-02 21:33:20,522 - INFO -   Action Accuracy: 0.8000
+2025-08-02 21:33:20,522 - INFO -   Date Accuracy: 0.8000
+2025-08-02 21:33:20,522 - INFO -   Time Accuracy: 0.9500
+2025-08-02 21:33:20,522 - INFO -   Location Accuracy: 0.6000
+2025-08-02 21:33:20,522 - INFO -   Duration Accuracy: 0.6000
+2025-08-02 21:33:24,551 - INFO - Checkpoint saved: test_outputs/checkpoint_epoch_2.pt
+2025-08-02 21:33:25,263 - INFO - Training plots saved to test_outputs/training_plots.png

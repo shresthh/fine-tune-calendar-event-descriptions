@@ -1,0 +1,1820 @@
+[
+  {
+    "event_text": "Budget review 2024-02-14 3:00\u202fpm Zoe, Dean, Chris 45mins",
+    "output": {
+      "action": "Budget review",
+      "date": "2024-02-14",
+      "time": "3:00 PM",
+      "attendees": [
+        "Zoe",
+        "Dean",
+        "Chris"
+      ],
+      "location": null,
+      "duration": "45 mins",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Dev sync 2023-12-05 10:00\u202fam w/ Kate & Leo Zoom 20m",
+    "output": {
+      "action": "Dev sync",
+      "date": "2023-12-05",
+      "time": "10:00 AM",
+      "attendees": [
+        "Kate",
+        "Leo"
+      ],
+      "location": "Zoom",
+      "duration": "20m",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Set up an all-hands meeting on 14th, November 2027 at 10 AM with Charlotte, Amelia, and Lily in the auditorium for 2 hours.",
+    "output": {
+      "action": "Set up an all-hands meeting",
+      "date": "14/11/2027",
+      "time": "10:00 AM",
+      "attendees": [
+        "Charlotte",
+        "Amelia",
+        "Lily"
+      ],
+      "location": "auditorium",
+      "duration": "2 hours",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "October 10, 2024 7am marketing review Alex, Bella, Ethan via Skype",
+    "output": {
+      "action": "marketing review",
+      "date": "10/10/2024",
+      "time": "7:00 AM",
+      "attendees": [
+        "Alex",
+        "Bella",
+        "Ethan"
+      ],
+      "location": "Skype",
+      "duration": null,
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Prep workshop 2023-11-23 11:45\u202fam w/ Julia & Josh Webex 1h",
+    "output": {
+      "action": "Prep workshop",
+      "date": "23/11/2023",
+      "time": "11:45 AM",
+      "attendees": [
+        "Julia",
+        "Josh"
+      ],
+      "location": "Webex",
+      "duration": "1h",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "May 15, 2024 9am marketing strategy Ryan, Chloe, Sam via Teams",
+    "output": {
+      "action": "marketing strategy",
+      "date": "15/05/2024",
+      "time": "9:00 AM",
+      "attendees": [
+        "Ryan",
+        "Chloe",
+        "Sam"
+      ],
+      "location": "Teams",
+      "duration": null,
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Discuss roadmap 22 - Oct - 2023 3:30\u202fpm video",
+    "output": {
+      "action": "Discuss roadmap",
+      "date": "22/10/2023",
+      "time": "3:30 PM",
+      "attendees": null,
+      "location": null,
+      "duration": null,
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "2023-12-19 1 PM Presentation session with Mia at Central YMCA, 2 hours.",
+    "output": {
+      "action": "Presentation session",
+      "date": "19/12/2023",
+      "time": "1:00 PM",
+      "attendees": [
+        "Mia"
+      ],
+      "location": "Central YMCA",
+      "duration": "2 hours",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Check-in 19/10/2023 at 11am with Kelly and Ben, 20 minutes.",
+    "output": {
+      "action": "Check-in",
+      "date": "19/10/2023",
+      "time": "11:00 AM",
+      "attendees": [
+        "Kelly",
+        "Ben"
+      ],
+      "location": null,
+      "duration": "20 minutes",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Discuss next steps via Teams 6th March, 2024, 10:15\u202fam, 1 hr.",
+    "output": {
+      "action": "Discuss next steps via Teams",
+      "date": "06/03/2024",
+      "time": "10:15 AM",
+      "attendees": null,
+      "location": null,
+      "duration": "1 hr",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Book weekly alignment 2023-12-04 8:30am with John for 1 hour.",
+    "output": {
+      "action": "Book weekly alignment",
+      "date": "2023-12-04",
+      "time": "8:30 AM",
+      "attendees": [
+        "John"
+      ],
+      "location": null,
+      "duration": "1 hour",
+      "recurrence": "weekly",
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Brainstorm session May 13, 2024 at 10:15am w/ Will, Grace, and Nina",
+    "output": {
+      "action": "Brainstorm session",
+      "date": "13/05/2024",
+      "time": "10:15 AM",
+      "attendees": [
+        "Will",
+        "Grace",
+        "Nina"
+      ],
+      "location": null,
+      "duration": null,
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Sales webinar 18th Apr, 2024 13:00 Microsoft Teams",
+    "output": {
+      "action": "Sales webinar",
+      "date": "18/04/2024",
+      "time": "13:00",
+      "attendees": null,
+      "location": "Microsoft Teams",
+      "duration": null,
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Final presentation scheduled for 25 - October - 2023, at 10:45am, 2 hours, hosted on Google Meet with Sophia and Elijah.",
+    "output": {
+      "action": "Final presentation",
+      "date": "25/10/2023",
+      "time": "10:45 AM",
+      "attendees": [
+        "Sophia",
+        "Elijah"
+      ],
+      "location": "Google Meet",
+      "duration": "2 hours",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Set up a brainstorming session on 22nd, January 2027 at 3 PM with Ava, Lucas, and Amelia in the creative studio for 2 hours.",
+    "output": {
+      "action": "brainstorming session",
+      "date": "22/01/2027",
+      "time": "3:00 PM",
+      "attendees": [
+        "Ava",
+        "Lucas",
+        "Amelia"
+      ],
+      "location": "creative studio",
+      "duration": "2 hours",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "One-on-one Zoe 23rd, Nov 2023 09:00 HQ 1hr",
+    "output": {
+      "action": "One-on-one",
+      "date": "23/11/2023",
+      "time": "09:00 AM",
+      "attendees": [
+        "Zoe"
+      ],
+      "location": "HQ",
+      "duration": "1hr",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Coffee w/ Sam 18th, Oct 2023 10:30 Caf\u00e9 45min",
+    "output": {
+      "action": "Coffee",
+      "date": "18/10/2023",
+      "time": "10:30 AM",
+      "attendees": [
+        "Sam"
+      ],
+      "location": "Caf\u00e9",
+      "duration": "45min",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Roundtable discussion 31st Mar, 2024 15:00 Google Meet",
+    "output": {
+      "action": "Roundtable discussion",
+      "date": "31/03/2024",
+      "time": "15:00",
+      "attendees": null,
+      "location": "Google Meet",
+      "duration": null,
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Wrap-up Feb 14, 2024 5pm 20min w/ Julia + Omar",
+    "output": {
+      "action": "Wrap-up",
+      "date": "14/02/2024",
+      "time": "5:00 PM",
+      "attendees": [
+        "Julia",
+        "Omar"
+      ],
+      "location": null,
+      "duration": "20min",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Marketing chat 28/10/2023 at 10:30am with Mia and Jason, 50 minutes.",
+    "output": {
+      "action": "Marketing chat",
+      "date": "28/10/2023",
+      "time": "10:30 AM",
+      "attendees": [
+        "Mia",
+        "Jason"
+      ],
+      "location": null,
+      "duration": "50 minutes",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Set up a project review meeting with Emma, Noah, and Liam on 5th, April 2025 at 9 AM in the main office for 90 minutes.",
+    "output": {
+      "action": "Set up a project review meeting",
+      "date": "05/04/2025",
+      "time": "9:00 AM",
+      "attendees": [
+        "Emma",
+        "Noah",
+        "Liam"
+      ],
+      "location": "main office",
+      "duration": "90 minutes",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Grab coffee downtown on 9th, Nov 2024 at 10:00 am and chat for roughly 30 minutes.",
+    "output": {
+      "action": "Grab coffee",
+      "date": "09/11/2024",
+      "time": "10:00 AM",
+      "attendees": null,
+      "location": "downtown",
+      "duration": "30 minutes",
+      "recurrence": null,
+      "notes": "chat"
+    }
+  },
+  {
+    "event_text": "Audit debrief 2024-06-30 2:00\u202fpm Liam, Chris, Priya 1hr",
+    "output": {
+      "action": "Audit debrief",
+      "date": "2024-06-30",
+      "time": "2:00 PM",
+      "attendees": [
+        "Liam",
+        "Chris",
+        "Priya"
+      ],
+      "location": null,
+      "duration": "1hr",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Meeting Feb 3, 2024 10am 1hr w/ CEO + CFO",
+    "output": {
+      "action": "Meeting",
+      "date": "03/02/2024",
+      "time": "10:00 AM",
+      "attendees": [
+        "CEO",
+        "CFO"
+      ],
+      "location": null,
+      "duration": "1 hour",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "2024-01-30 8:30 AM Marketing sync with Josh at conference room B, one hour.",
+    "output": {
+      "action": "Marketing sync",
+      "date": "30/01/2024",
+      "time": "8:30 AM",
+      "attendees": [
+        "Josh"
+      ],
+      "location": "conference room B",
+      "duration": "1 hour",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Follow-up chat 06 - Nov - 2023 1:15\u202fpm virtual",
+    "output": {
+      "action": "Follow-up chat",
+      "date": "06/11/2023",
+      "time": "1:15 PM",
+      "attendees": null,
+      "location": "virtual",
+      "duration": null,
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "2024-01-20 6 PM Meet Jacob at Terrace Bistro for dinner, 90 minutes.",
+    "output": {
+      "action": "Meet",
+      "date": "20/01/2024",
+      "time": "6:00 PM",
+      "attendees": [
+        "Jacob"
+      ],
+      "location": "Terrace Bistro",
+      "duration": "90 minutes",
+      "recurrence": null,
+      "notes": "dinner"
+    }
+  },
+  {
+    "event_text": "Photography class at the studio on 29th, Oct 2024 at 4:00 pm for 90 minutes.",
+    "output": {
+      "action": "Photography class",
+      "date": "29/10/2024",
+      "time": "4:00 PM",
+      "attendees": null,
+      "location": "the studio",
+      "duration": "90 minutes",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Brainstorm with Ben, Rachel, and Dan on June 12, 2024 at 2pm",
+    "output": {
+      "action": "Brainstorm",
+      "date": "12/06/2024",
+      "time": "2:00 PM",
+      "attendees": [
+        "Ben",
+        "Rachel",
+        "Dan"
+      ],
+      "location": null,
+      "duration": null,
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Schedule Zoom check-in March 5, 2024, 12:45\u202fpm, 25 mins.",
+    "output": {
+      "action": "Zoom check-in",
+      "date": "05/03/2024",
+      "time": "12:45 PM",
+      "attendees": null,
+      "location": null,
+      "duration": "25 mins",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Pick up groceries on April 4, 2024, 6:00 pm at Farmer\u2019s Market, 30 mins.",
+    "output": {
+      "action": "Pick up groceries",
+      "date": "04/04/2024",
+      "time": "6:00 PM",
+      "attendees": null,
+      "location": "Farmer\u2019s Market",
+      "duration": "30 mins",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Fix onboarding Feb 8, 2024 2:15pm 30min w/ IT + Erin",
+    "output": {
+      "action": "Fix onboarding",
+      "date": "08/02/2024",
+      "time": "2:15 PM",
+      "attendees": [
+        "IT",
+        "Erin"
+      ],
+      "location": null,
+      "duration": "30 minutes",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Call with Sarah, Tom, and Lisa on April 2, 2024 at 3pm for 30 minutes",
+    "output": {
+      "action": "Call",
+      "date": "02/04/2024",
+      "time": "3:00 PM",
+      "attendees": [
+        "Sarah",
+        "Tom",
+        "Lisa"
+      ],
+      "location": null,
+      "duration": "30 minutes",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Catch-up w/ June 27th, Nov 2023 17:00 Rooftop 30min",
+    "output": {
+      "action": "Catch-up",
+      "date": "27/11/2023",
+      "time": "17:00",
+      "attendees": null,
+      "location": "Rooftop",
+      "duration": "30min",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Pencil in time for alignment talks on November 20, 2026 at 11:00, an hour should work.",
+    "output": {
+      "action": "alignment talks",
+      "date": "20/11/2026",
+      "time": "11:00 AM",
+      "attendees": null,
+      "location": null,
+      "duration": "1 hour",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Review w/ Rachel 6th, Dec 2023 10:15 HQ 1hr",
+    "output": {
+      "action": "Review",
+      "date": "06/12/2023",
+      "time": "10:15 AM",
+      "attendees": [
+        "Rachel"
+      ],
+      "location": "HQ",
+      "duration": "1hr",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Add the final session for the workshop on April 19, 2027 at 14:50, 75 minutes should do.",
+    "output": {
+      "action": "Add the final session for the workshop",
+      "date": "19/04/2027",
+      "time": "14:50",
+      "attendees": null,
+      "location": null,
+      "duration": "75 minutes",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "September 18, 2024 10am onboarding call Sarah, Liam, Nora on Zoom",
+    "output": {
+      "action": "onboarding call",
+      "date": "18/09/2024",
+      "time": "10:00 AM",
+      "attendees": [
+        "Sarah",
+        "Liam",
+        "Nora"
+      ],
+      "location": "Zoom",
+      "duration": null,
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Organize a stakeholder briefing on October 8, 2024 at 8:00 am for 1 hour with Adam and Eve at Corporate Tower, Floor 5.",
+    "output": {
+      "action": "Organize a stakeholder briefing",
+      "date": "08/10/2024",
+      "time": "8:00 AM",
+      "attendees": [
+        "Adam",
+        "Eve"
+      ],
+      "location": "Corporate Tower, Floor 5",
+      "duration": "1 hour",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Schedule progress review 2023-11-30 1pm with Emma for 1.5 hours.",
+    "output": {
+      "action": "Schedule progress review",
+      "date": "30/11/2023",
+      "time": "1:00 PM",
+      "attendees": [
+        "Emma"
+      ],
+      "location": null,
+      "duration": "1.5 hours",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "May 22, 2024 1pm create outline Alex, Lily, Noah on Teams",
+    "output": {
+      "action": "create outline",
+      "date": "22/05/2024",
+      "time": "1:00 PM",
+      "attendees": [
+        "Alex",
+        "Lily",
+        "Noah"
+      ],
+      "location": "Teams",
+      "duration": null,
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Slack huddle for feedback March 18, 2024 at 3:30\u202fpm, 25 mins.",
+    "output": {
+      "action": "Slack huddle for feedback",
+      "date": "18/03/2024",
+      "time": "3:30 PM",
+      "attendees": null,
+      "location": null,
+      "duration": "25 mins",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Prep call 18th, Jul 2025 3:30 pm w/ Chris Teams 30 mins",
+    "output": {
+      "action": "Prep call",
+      "date": "18/07/2025",
+      "time": "3:30 PM",
+      "attendees": [
+        "Chris"
+      ],
+      "location": "Teams",
+      "duration": "30 mins",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Group study 24 - Oct - 2023 7:30\u202fpm Google Meet",
+    "output": {
+      "action": "Group study",
+      "date": "24/10/2023",
+      "time": "7:30 PM",
+      "attendees": null,
+      "location": "Google Meet",
+      "duration": null,
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Plan strategy chat March 28, 2024, 12:00\u202fpm, 25 mins on Google Meet.",
+    "output": {
+      "action": "Plan strategy chat",
+      "date": "28/03/2024",
+      "time": "12:00 PM",
+      "attendees": null,
+      "location": "Google Meet",
+      "duration": "25 mins",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Zoom status meeting March 3, 2024 at 3:15\u202fpm, 30 mins.",
+    "output": {
+      "action": "Zoom status meeting",
+      "date": "03/03/2024",
+      "time": "3:15 PM",
+      "attendees": null,
+      "location": null,
+      "duration": "30 mins",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Drop by the coworking space on 14th, Oct 2024 at 4:00 pm for a 2-hour session.",
+    "output": {
+      "action": "Drop by the coworking space",
+      "date": "14/10/2024",
+      "time": "4:00 PM",
+      "attendees": null,
+      "location": "coworking space",
+      "duration": "2 hours",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "2024-01-10 9 AM Strategy review with Emily at the main office for 90 minutes.",
+    "output": {
+      "action": "Strategy review",
+      "date": "10/01/2024",
+      "time": "9:00 AM",
+      "attendees": [
+        "Emily"
+      ],
+      "location": "main office",
+      "duration": "90 minutes",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Schedule focus group 04/12/2023 1:15pm Market Research Lab with Jack, Chloe, and Sarah 1hr.",
+    "output": {
+      "action": "Schedule focus group",
+      "date": "04/12/2023",
+      "time": "1:15 PM",
+      "attendees": [
+        "Jack",
+        "Chloe",
+        "Sarah"
+      ],
+      "location": "Market Research Lab",
+      "duration": "1hr",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Catch-up 14th, Oct 2024 4:00 pm w/ Sam Zoom 1 hr",
+    "output": {
+      "action": "Catch-up",
+      "date": "14/10/2024",
+      "time": "4:00 PM",
+      "attendees": [
+        "Sam"
+      ],
+      "location": "Zoom",
+      "duration": "1 hr",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Board mtg 2024-06-15 3:30\u202fpm Owen, Jess, Kai 2hrs",
+    "output": {
+      "action": "Board mtg",
+      "date": "2024-06-15",
+      "time": "3:30 PM",
+      "attendees": [
+        "Owen",
+        "Jess",
+        "Kai"
+      ],
+      "location": null,
+      "duration": "2hrs",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Arrange a product testing session on 11th, March 2027 at 2 PM with Noah, Mia, and Zoe in the testing lab for 3 hours.",
+    "output": {
+      "action": "Arrange a product testing session",
+      "date": "11/03/2027",
+      "time": "2:00 PM",
+      "attendees": [
+        "Noah",
+        "Mia",
+        "Zoe"
+      ],
+      "location": "testing lab",
+      "duration": "3 hours",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "December 22, 2024 9am finalize details Alex, Ben, Chris on Zoom",
+    "output": {
+      "action": "finalize details",
+      "date": "22/12/2024",
+      "time": "9:00 AM",
+      "attendees": [
+        "Alex",
+        "Ben",
+        "Chris"
+      ],
+      "location": "Zoom",
+      "duration": null,
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Quick hangout 4th March, 2024, 5:00\u202fpm, 15 mins on Zoom.",
+    "output": {
+      "action": "Quick hangout",
+      "date": "04/03/2024",
+      "time": "5:00 PM",
+      "attendees": null,
+      "location": "Zoom",
+      "duration": "15 mins",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "March 7, 2024 5am product sync Alex, Emma, Liam via Skype",
+    "output": {
+      "action": "product sync",
+      "date": "07/03/2024",
+      "time": "5:00 AM",
+      "attendees": [
+        "Alex",
+        "Emma",
+        "Liam"
+      ],
+      "location": "Skype",
+      "duration": null,
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Marketing mtg 2024-03-25 9:00\u202fam Grace, Ian, Zoe 1.5hrs",
+    "output": {
+      "action": "Marketing mtg",
+      "date": "25/03/2024",
+      "time": "9:00 AM",
+      "attendees": [
+        "Grace",
+        "Ian",
+        "Zoe"
+      ],
+      "location": null,
+      "duration": "1.5hrs",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Organize an internship orientation on 7th, April 2027 at 10 AM with Amelia, Olivia, and Grace in the HR conference room for 2 hours.",
+    "output": {
+      "action": "Organize an internship orientation",
+      "date": "07/04/2027",
+      "time": "10:00 AM",
+      "attendees": [
+        "Amelia",
+        "Olivia",
+        "Grace"
+      ],
+      "location": "HR conference room",
+      "duration": "2 hours",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Quick sync May 2, 2024, 12pm \u2013 w/ Lauren, Ben, and Sky (30 mins)",
+    "output": {
+      "action": "Quick sync",
+      "date": "02/05/2024",
+      "time": "12:00 PM",
+      "attendees": [
+        "Lauren",
+        "Ben",
+        "Sky"
+      ],
+      "location": null,
+      "duration": "30 mins",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Put in a brainstorming session on February 13, 2026 at 09:50, reserve a full hour.",
+    "output": {
+      "action": "brainstorming session",
+      "date": "13/02/2026",
+      "time": "09:50 AM",
+      "attendees": null,
+      "location": null,
+      "duration": "1 hour",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Catch-up: meet Anna, Lola, and Peter on July 7, 2024 at 1pm for 1 hour",
+    "output": {
+      "action": "Catch-up",
+      "date": "07/07/2024",
+      "time": "1:00 PM",
+      "attendees": [
+        "Anna",
+        "Lola",
+        "Peter"
+      ],
+      "location": null,
+      "duration": "1 hour",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Align w/ Mike 24th, Nov 2023 16:00 HQ 30min",
+    "output": {
+      "action": "Align",
+      "date": "24/11/2023",
+      "time": "16:00",
+      "attendees": [
+        "Mike"
+      ],
+      "location": "HQ",
+      "duration": "30min",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "2024-02-03 10 AM Review meeting with Liam at Westside Library, 90 minutes.",
+    "output": {
+      "action": "Review meeting",
+      "date": "03/02/2024",
+      "time": "10:00 AM",
+      "attendees": [
+        "Liam"
+      ],
+      "location": "Westside Library",
+      "duration": "90 minutes",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Ops checkin 2024-02-22 9:30\u202fam w/ Chloe & Leo Skype 20m",
+    "output": {
+      "action": "Ops checkin",
+      "date": "2024-02-22",
+      "time": "9:30 AM",
+      "attendees": [
+        "Chloe",
+        "Leo"
+      ],
+      "location": "Skype",
+      "duration": "20m",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Webinar training with Linda on May 12, 2024, 2:00 pm at HQ for 3 hours.",
+    "output": {
+      "action": "Webinar training",
+      "date": "12/05/2024",
+      "time": "2:00 PM",
+      "attendees": [
+        "Linda"
+      ],
+      "location": "HQ",
+      "duration": "3 hours",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Virtual workshop 3rd Mar, 2024 09:00 1 hour",
+    "output": {
+      "action": "Virtual workshop",
+      "date": "03/03/2024",
+      "time": "09:00 AM",
+      "attendees": null,
+      "location": null,
+      "duration": "1 hour",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Book customer feedback 21/11/2023 3:30pm Workshop Room with Adam, Megan, and Sophie 1hr.",
+    "output": {
+      "action": "Book customer feedback",
+      "date": "21/11/2023",
+      "time": "3:30 PM",
+      "attendees": [
+        "Adam",
+        "Megan",
+        "Sophie"
+      ],
+      "location": "Workshop Room",
+      "duration": "1hr",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Catch-up on 29/11/2023 at 4pm with Emma and Max, 1 hour.",
+    "output": {
+      "action": "Catch-up",
+      "date": "29/11/2023",
+      "time": "4:00 PM",
+      "attendees": [
+        "Emma",
+        "Max"
+      ],
+      "location": null,
+      "duration": "1 hour",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Schedule a meeting on January 10, 2024 at 10:00 am for 1 hour with John and Sarah at the Downtown Office.",
+    "output": {
+      "action": "Schedule a meeting",
+      "date": "10/01/2024",
+      "time": "10:00 AM",
+      "attendees": [
+        "John",
+        "Sarah"
+      ],
+      "location": "Downtown Office",
+      "duration": "1 hour",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Standup mtg 2024-02-01 9:30\u202fam Sara, Max, Dave 20mins",
+    "output": {
+      "action": "Standup mtg",
+      "date": "2024-02-01",
+      "time": "9:30 AM",
+      "attendees": [
+        "Sara",
+        "Max",
+        "Dave"
+      ],
+      "location": null,
+      "duration": "20 mins",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Kickoff call 2024-02-15 1:30\u202fpm w/ Josh & Ryan Zoom 30m",
+    "output": {
+      "action": "Kickoff call",
+      "date": "2024-02-15",
+      "time": "1:30 PM",
+      "attendees": [
+        "Josh",
+        "Ryan"
+      ],
+      "location": "Zoom",
+      "duration": "30m",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Coffee stop at the bakery on 20th, Aug 2024, 9:30 am, for about 45 minutes.",
+    "output": {
+      "action": "Coffee stop",
+      "date": "20/08/2024",
+      "time": "9:30 AM",
+      "attendees": null,
+      "location": "the bakery",
+      "duration": "45 minutes",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Prep mtg 8th, Nov 2024 2:45 pm w/ Lou Teams 30 mins",
+    "output": {
+      "action": "Prep mtg",
+      "date": "08/11/2024",
+      "time": "2:45 PM",
+      "attendees": [
+        "Lou"
+      ],
+      "location": "Teams",
+      "duration": "30 mins",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Plan new hire training 2024-02-05 9:15am with Mike for 2 hours.",
+    "output": {
+      "action": "Plan new hire training",
+      "date": "2024-02-05",
+      "time": "9:15 AM",
+      "attendees": [
+        "Mike"
+      ],
+      "location": null,
+      "duration": "2 hours",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "5:00 pm sync 11th, May 2025 w/ Steve Google Meet 30 mins",
+    "output": {
+      "action": "sync",
+      "date": "11/05/2025",
+      "time": "5:00 PM",
+      "attendees": [
+        "Steve"
+      ],
+      "location": "Google Meet",
+      "duration": "30 mins",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Sales update 29/11/2023 at 3:15pm with Alex and Lauren, 40 minutes.",
+    "output": {
+      "action": "Sales update",
+      "date": "29/11/2023",
+      "time": "3:15 PM",
+      "attendees": [
+        "Alex",
+        "Lauren"
+      ],
+      "location": null,
+      "duration": "40 minutes",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Follow-up 12th Sep, 2024 10:00 virtual 1 hour",
+    "output": {
+      "action": "Follow-up",
+      "date": "12/09/2024",
+      "time": "10:00 AM",
+      "attendees": null,
+      "location": "virtual",
+      "duration": "1 hour",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Plan a tour of the new facility on 18th, May 2027 at 1 PM with Ethan, Jack, and Charlotte in the new headquarters for 1 hour.",
+    "output": {
+      "action": "Plan a tour of the new facility",
+      "date": "18/05/2027",
+      "time": "1:00 PM",
+      "attendees": [
+        "Ethan",
+        "Jack",
+        "Charlotte"
+      ],
+      "location": "new headquarters",
+      "duration": "1 hour",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Policy update 2024-04-27 8:45\u202fam Owen, Mia, Vera",
+    "output": {
+      "action": "Policy update",
+      "date": "2024-04-27",
+      "time": "8:45 AM",
+      "attendees": [
+        "Owen",
+        "Mia",
+        "Vera"
+      ],
+      "location": null,
+      "duration": null,
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Organize resource planning 2024-02-20 2:30pm with Sarah for 20 mins.",
+    "output": {
+      "action": "Organize resource planning",
+      "date": "2024-02-20",
+      "time": "2:30 PM",
+      "attendees": [
+        "Sarah"
+      ],
+      "location": null,
+      "duration": "20 mins",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Arrange client call 21/12/2023 12pm Phone Room with Sophie, Logan, and Alex 45mins.",
+    "output": {
+      "action": "Arrange client call",
+      "date": "21/12/2023",
+      "time": "12:00 PM",
+      "attendees": [
+        "Sophie",
+        "Logan",
+        "Alex"
+      ],
+      "location": "Phone Room",
+      "duration": "45 mins",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Brainstorming session on 28 - February - 2024 at 9:30am with Emily and John, lasting an hour, on Zoom.",
+    "output": {
+      "action": "Brainstorming session",
+      "date": "28/02/2024",
+      "time": "9:30 AM",
+      "attendees": [
+        "Emily",
+        "John"
+      ],
+      "location": "Zoom",
+      "duration": "1 hour",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Plan a client kickoff on November 14, 2023 at 3:00 pm for 1 hour with Alex and Rachel at Main Office.",
+    "output": {
+      "action": "Plan a client kickoff",
+      "date": "14/11/2023",
+      "time": "3:00 PM",
+      "attendees": [
+        "Alex",
+        "Rachel"
+      ],
+      "location": "Main Office",
+      "duration": "1 hour",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Upload reports Feb 1, 2024 11:30am 15min w/ team",
+    "output": {
+      "action": "Upload reports",
+      "date": "01/02/2024",
+      "time": "11:30 AM",
+      "attendees": [
+        "team"
+      ],
+      "location": null,
+      "duration": "15 minutes",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Study session 19 - Nov - 2023 3:45\u202fpm Zoom",
+    "output": {
+      "action": "Study session",
+      "date": "19/11/2023",
+      "time": "3:45 PM",
+      "attendees": null,
+      "location": "Zoom",
+      "duration": null,
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Discussion with Olivia and Ethan on 08 - January - 2024 at 1:15pm lasting 1 hour over Microsoft Teams.",
+    "output": {
+      "action": "Discussion",
+      "date": "08/01/2024",
+      "time": "1:15 PM",
+      "attendees": [
+        "Olivia",
+        "Ethan"
+      ],
+      "location": "Microsoft Teams",
+      "duration": "1 hour",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Strategy planning on 17 - January - 2024 at 8:30am with David and Sophie for 60 minutes via Zoom.",
+    "output": {
+      "action": "Strategy planning",
+      "date": "17/01/2024",
+      "time": "8:30 AM",
+      "attendees": [
+        "David",
+        "Sophie"
+      ],
+      "location": "Zoom",
+      "duration": "60 minutes",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Coding seminar at the campus building on 1st, Apr 2024 starting 3:30 pm for about 2 hours.",
+    "output": {
+      "action": "Coding seminar",
+      "date": "01/04/2024",
+      "time": "3:30 PM",
+      "attendees": null,
+      "location": "campus building",
+      "duration": "2 hours",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Finalize report w/ Amy, David, and Ellie Aug 9, 2024, 4:15pm for 30 mins",
+    "output": {
+      "action": "Finalize report",
+      "date": "09/08/2024",
+      "time": "4:15 PM",
+      "attendees": [
+        "Amy",
+        "David",
+        "Ellie"
+      ],
+      "location": null,
+      "duration": "30 mins",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Catch a movie at the local theater on 21st, Nov 2024 at 8:00 pm, which will last 2 hours.",
+    "output": {
+      "action": "Catch a movie",
+      "date": "21/11/2024",
+      "time": "8:00 PM",
+      "attendees": null,
+      "location": "local theater",
+      "duration": "2 hours",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Team sync 15th, Dec 2023 10:30 am w/ Raj Google Meet 1 hr",
+    "output": {
+      "action": "Team sync",
+      "date": "15/12/2023",
+      "time": "10:30 AM",
+      "attendees": [
+        "Raj"
+      ],
+      "location": "Google Meet",
+      "duration": "1 hr",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Feedback mtg w/ Mia 4th, Nov 2025 11:15 am on Skype 30 mins",
+    "output": {
+      "action": "Feedback meeting",
+      "date": "04/11/2025",
+      "time": "11:15 AM",
+      "attendees": [
+        "Mia"
+      ],
+      "location": "Skype",
+      "duration": "30 mins",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Plan a new hire orientation on February 8, 2024 at 9:45 am for 2 hours with Chloe and Isaac at the Training Center.",
+    "output": {
+      "action": "Plan a new hire orientation",
+      "date": "08/02/2024",
+      "time": "9:45 AM",
+      "attendees": [
+        "Chloe",
+        "Isaac"
+      ],
+      "location": "Training Center",
+      "duration": "2 hours",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "All-hands meeting 22nd Dec, 2024 10:00 Microsoft Teams",
+    "output": {
+      "action": "All-hands meeting",
+      "date": "22/12/2024",
+      "time": "10:00 AM",
+      "attendees": null,
+      "location": "Microsoft Teams",
+      "duration": null,
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Plan social hour 27/10/2023 5pm Office Lounge with Mason, Sarah, and Henry 2hrs.",
+    "output": {
+      "action": "Plan social hour",
+      "date": "27/10/2023",
+      "time": "5:00 PM",
+      "attendees": [
+        "Mason",
+        "Sarah",
+        "Henry"
+      ],
+      "location": "Office Lounge",
+      "duration": "2hrs",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Check-in 19th, Dec 2024 11:00 am w/ Priya Google Meet 45 mins",
+    "output": {
+      "action": "Check-in",
+      "date": "19/12/2024",
+      "time": "11:00 AM",
+      "attendees": [
+        "Priya"
+      ],
+      "location": "Google Meet",
+      "duration": "45 mins",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Weekly sync 2023-12-07 12:45\u202fpm Steve, Tara, Nick 30mins",
+    "output": {
+      "action": "Weekly sync",
+      "date": "07/12/2023",
+      "time": "12:45 PM",
+      "attendees": [
+        "Steve",
+        "Tara",
+        "Nick"
+      ],
+      "location": null,
+      "duration": "30 mins",
+      "recurrence": "weekly",
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Plan an exhibition walkthrough on 15th, April 2028 at 3 PM with Harper, Grace, and Alex in the art gallery for 1 hour.",
+    "output": {
+      "action": "Plan an exhibition walkthrough",
+      "date": "15/04/2028",
+      "time": "3:00 PM",
+      "attendees": [
+        "Harper",
+        "Grace",
+        "Alex"
+      ],
+      "location": "art gallery",
+      "duration": "1 hour",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Talk w/ vendor Feb 5, 2024 2pm 1hr w/ Emily + John",
+    "output": {
+      "action": "Talk w/ vendor",
+      "date": "05/02/2024",
+      "time": "2:00 PM",
+      "attendees": [
+        "Emily",
+        "John"
+      ],
+      "location": null,
+      "duration": "1hr",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Call with Dana 06 - Dec - 2023 2:30\u202fpm Zoom",
+    "output": {
+      "action": "Call",
+      "date": "06/12/2023",
+      "time": "2:30 PM",
+      "attendees": [
+        "Dana"
+      ],
+      "location": "Zoom",
+      "duration": null,
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Arrange brainstorm session 06/12/2023 4pm Collaboration Room with Sophia, Mason, and Grace 1hr.",
+    "output": {
+      "action": "Arrange brainstorm session",
+      "date": "06/12/2023",
+      "time": "4:00 PM",
+      "attendees": [
+        "Sophia",
+        "Mason",
+        "Grace"
+      ],
+      "location": "Collaboration Room",
+      "duration": "1hr",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Schedule chat on Slack 5th April, 2024, 10:30\u202fam, 15 mins.",
+    "output": {
+      "action": "Schedule chat on Slack",
+      "date": "05/04/2024",
+      "time": "10:30 AM",
+      "attendees": null,
+      "location": null,
+      "duration": "15 mins",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Schedule a budget planning session with Mia, Ethan, and Lucas on 19th, February 2026 at 9 AM in the finance office for 2 hours.",
+    "output": {
+      "action": "budget planning session",
+      "date": "19/02/2026",
+      "time": "9:00 AM",
+      "attendees": [
+        "Mia",
+        "Ethan",
+        "Lucas"
+      ],
+      "location": "finance office",
+      "duration": "2 hours",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Update call w/ Nathan 25th, Sep 2024 10:30 am Skype 45 mins",
+    "output": {
+      "action": "Update call",
+      "date": "25/09/2024",
+      "time": "10:30 AM",
+      "attendees": [
+        "Nathan"
+      ],
+      "location": "Skype",
+      "duration": "45 mins",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Partnership meeting 30/10/2023 at 1:45pm with Andrew and Katie, 1 hour.",
+    "output": {
+      "action": "Partnership meeting",
+      "date": "30/10/2023",
+      "time": "1:45 PM",
+      "attendees": [
+        "Andrew",
+        "Katie"
+      ],
+      "location": null,
+      "duration": "1 hour",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "2024-01-15 2 PM Progress review with Michael at Regional Library, 90 minutes.",
+    "output": {
+      "action": "Progress review",
+      "date": "15/01/2024",
+      "time": "2:00 PM",
+      "attendees": [
+        "Michael"
+      ],
+      "location": "Regional Library",
+      "duration": "90 minutes",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Board presentation 10/12/2023 at 10am with Jack and Amy, 2 hours.",
+    "output": {
+      "action": "Board presentation",
+      "date": "10/12/2023",
+      "time": "10:00 AM",
+      "attendees": [
+        "Jack",
+        "Amy"
+      ],
+      "location": null,
+      "duration": "2 hours",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Organize a monthly update meeting on November 30, 2023 at 2:00 pm for 1 hour with George and Tracy at HQ Conference Room 2.",
+    "output": {
+      "action": "Organize a monthly update meeting",
+      "date": "30/11/2023",
+      "time": "2:00 PM",
+      "attendees": [
+        "George",
+        "Tracy"
+      ],
+      "location": "HQ Conference Room 2",
+      "duration": "1 hour",
+      "recurrence": "monthly",
+      "notes": null
+    }
+  },
+  {
+    "event_text": "November 4, 2024 2pm leadership sync Alex, Olivia, Ryan on Skype",
+    "output": {
+      "action": "leadership sync",
+      "date": "04/11/2024",
+      "time": "2:00 PM",
+      "attendees": [
+        "Alex",
+        "Olivia",
+        "Ryan"
+      ],
+      "location": "Skype",
+      "duration": null,
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Let's schedule the project briefing for March 15, 2024 at 10:00 for an hour.",
+    "output": {
+      "action": "project briefing",
+      "date": "15/03/2024",
+      "time": "10:00 AM",
+      "attendees": null,
+      "location": null,
+      "duration": "1 hour",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Volunteer at the community center on 23rd, Feb 2025, starting at 3:00 pm, will be 4 hours or so.",
+    "output": {
+      "action": "Volunteer",
+      "date": "23/02/2025",
+      "time": "3:00 PM",
+      "attendees": null,
+      "location": "community center",
+      "duration": "4 hours",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Game night 09 - Nov - 2023 8:00\u202fpm virtual",
+    "output": {
+      "action": "Game night",
+      "date": "09/11/2023",
+      "time": "8:00 PM",
+      "attendees": null,
+      "location": "virtual",
+      "duration": null,
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Arrange follow-up 2023-11-08 4pm with Emily for 20 mins.",
+    "output": {
+      "action": "Arrange follow-up",
+      "date": "2023-11-08",
+      "time": "4:00 PM",
+      "attendees": [
+        "Emily"
+      ],
+      "location": null,
+      "duration": "20 mins",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Organize team outing 05/10/2023 3pm City Park with Jamie, Sophia, and Jack 4hrs.",
+    "output": {
+      "action": "Organize team outing",
+      "date": "05/10/2023",
+      "time": "3:00 PM",
+      "attendees": [
+        "Jamie",
+        "Sophia",
+        "Jack"
+      ],
+      "location": "City Park",
+      "duration": "4hrs",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Tech review 2023-12-27 09:30\u202fam Zoe, Ash, Dylan 1hr",
+    "output": {
+      "action": "Tech review",
+      "date": "2023-12-27",
+      "time": "09:30 AM",
+      "attendees": [
+        "Zoe",
+        "Ash",
+        "Dylan"
+      ],
+      "location": null,
+      "duration": "1hr",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Teams meeting to review plans March 4, 2024, 2:30\u202fpm, 1 hr.",
+    "output": {
+      "action": "Teams meeting to review plans",
+      "date": "04/03/2024",
+      "time": "2:30 PM",
+      "attendees": null,
+      "location": null,
+      "duration": "1 hr",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Plan workshop 12/11/2023 at 3pm with Steve and Rachel, 2 hours.",
+    "output": {
+      "action": "Plan workshop",
+      "date": "12/11/2023",
+      "time": "3:00 PM",
+      "attendees": [
+        "Steve",
+        "Rachel"
+      ],
+      "location": null,
+      "duration": "2 hours",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "2024-01-22 4 PM Planning session with Monica at the rooftop caf\u00e9, one hour.",
+    "output": {
+      "action": "Planning session",
+      "date": "22/01/2024",
+      "time": "4:00 PM",
+      "attendees": [
+        "Monica"
+      ],
+      "location": "rooftop caf\u00e9",
+      "duration": "1 hour",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "Update mtg 5th, Jan 2024 4:00 pm w/ Jane Teams 45 mins",
+    "output": {
+      "action": "Update meeting",
+      "date": "05/01/2024",
+      "time": "4:00 PM",
+      "attendees": [
+        "Jane"
+      ],
+      "location": "Teams",
+      "duration": "45 mins",
+      "recurrence": null,
+      "notes": null
+    }
+  },
+  {
+    "event_text": "One-on-one coaching session on 15 - December - 2023 at 8:30am for an hour with Mia and Lucas via Zoom.",
+    "output": {
+      "action": "One-on-one coaching session",
+      "date": "15/12/2023",
+      "time": "8:30 AM",
+      "attendees": [
+        "Mia",
+        "Lucas"
+      ],
+      "location": "Zoom",
+      "duration": "1 hour",
+      "recurrence": null,
+      "notes": null
+    }
+  }
+]

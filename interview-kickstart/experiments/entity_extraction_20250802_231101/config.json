@@ -1,0 +1,8 @@
+{
+  "model_name": "HuggingFaceTB/SmolLM-360M",
+  "max_length": 512,
+  "learning_rate": 5e-05,
+  "batch_size": 8,
+  "num_epochs": 3,
+  "entity_loss_weight": 2.0
+}

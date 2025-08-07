@@ -1,0 +1,37 @@
+2025-08-03 00:35:28,711 - INFO - Starting training...
+2025-08-03 00:35:28,711 - INFO - Train samples: 554
+2025-08-03 00:35:28,711 - INFO - Eval samples: 119
+2025-08-03 01:08:22,797 - INFO - Epoch 0 completed:
+2025-08-03 01:08:22,799 - INFO -   Train Loss: 2.2498
+2025-08-03 01:08:22,800 - INFO -   Eval Loss: 0.1685
+2025-08-03 01:08:22,800 - INFO -   Exact Match: 0.7550
+2025-08-03 01:08:22,800 - INFO -   Action Accuracy: 0.6200
+2025-08-03 01:08:22,800 - INFO -   Date Accuracy: 0.7200
+2025-08-03 01:08:22,800 - INFO -   Time Accuracy: 0.9600
+2025-08-03 01:08:22,800 - INFO -   Location Accuracy: 0.4600
+2025-08-03 01:08:22,800 - INFO -   Duration Accuracy: 0.6400
+2025-08-03 01:08:30,648 - INFO - New best model saved with score: 0.7550
+2025-08-03 01:08:30,648 - INFO - Checkpoint saved: experiments/entity_extraction_20250803_001100/checkpoints/checkpoint_epoch_0.pt
+2025-08-03 01:39:40,296 - INFO - Epoch 1 completed:
+2025-08-03 01:39:40,297 - INFO -   Train Loss: 0.1343
+2025-08-03 01:39:40,297 - INFO -   Eval Loss: 0.1210
+2025-08-03 01:39:40,298 - INFO -   Exact Match: 0.8850
+2025-08-03 01:39:40,298 - INFO -   Action Accuracy: 0.8400
+2025-08-03 01:39:40,298 - INFO -   Date Accuracy: 0.8800
+2025-08-03 01:39:40,298 - INFO -   Time Accuracy: 1.0000
+2025-08-03 01:39:40,298 - INFO -   Location Accuracy: 0.7000
+2025-08-03 01:39:40,298 - INFO -   Duration Accuracy: 0.7800
+2025-08-03 01:39:54,483 - INFO - New best model saved with score: 0.8850
+2025-08-03 01:39:54,483 - INFO - Checkpoint saved: experiments/entity_extraction_20250803_001100/checkpoints/checkpoint_epoch_1.pt
+2025-08-03 02:11:07,372 - INFO - Epoch 2 completed:
+2025-08-03 02:11:07,373 - INFO -   Train Loss: 0.1069
+2025-08-03 02:11:07,373 - INFO -   Eval Loss: 0.1076
+2025-08-03 02:11:07,373 - INFO -   Exact Match: 0.9400
+2025-08-03 02:11:07,373 - INFO -   Action Accuracy: 0.9000
+2025-08-03 02:11:07,373 - INFO -   Date Accuracy: 0.9000
+2025-08-03 02:11:07,373 - INFO -   Time Accuracy: 1.0000
+2025-08-03 02:11:07,373 - INFO -   Location Accuracy: 0.9000
+2025-08-03 02:11:07,373 - INFO -   Duration Accuracy: 0.9200
+2025-08-03 02:11:20,508 - INFO - New best model saved with score: 0.9400
+2025-08-03 02:11:20,508 - INFO - Checkpoint saved: experiments/entity_extraction_20250803_001100/checkpoints/checkpoint_epoch_2.pt
+2025-08-03 02:11:21,074 - INFO - Training plots saved to experiments/entity_extraction_20250803_001100/checkpoints/training_plots.png
